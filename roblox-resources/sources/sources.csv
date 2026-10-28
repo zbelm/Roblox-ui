@@ -413,3 +413,15 @@ S411,blender-for-roblox,Exporting 1:1 scale models from Blender,https://devforum
 S412,blender-for-roblox,Modeling 101 in Blender (box modeling),https://devforum.roblox.com/t/modeling-101-in-blender-box-modeling/2963814,DevForum post (Roblox staff),n/a,2024-05-09,2026-10-28,use,staff beginner modeling article
 S413,blender-for-roblox,Grant Abbitt (YouTube),https://www.youtube.com/@grabbitt,YouTube channel,n/a,unknown,2026-10-28,caution,general Blender teaching; not Roblox-specific
 S414,blender-for-roblox,Imphenzia (YouTube),https://www.youtube.com/@Imphenzia,YouTube channel,n/a,unknown,2026-10-28,caution,low-poly Blender; recency unverified
+S415,mesh-import-export,3D Importer,https://create.roblox.com/docs/studio/importer,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"import settings, warnings, formats"
+S416,mesh-import-export,Export requirements,https://create.roblox.com/docs/art/modeling/export-requirements,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Blender and Maya FBX export settings
+S417,mesh-import-export,Mesh specifications,https://create.roblox.com/docs/art/modeling/specifications,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"20,000 tris, rig and cage rules"
+S418,mesh-import-export,Meshes,https://create.roblox.com/docs/parts/meshes,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"RenderFidelity, CollisionFidelity"
+S419,mesh-import-export,Reimport,https://create.roblox.com/docs/art/modeling/reimport,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,update meshes and textures in place
+S420,mesh-import-export,"3D export (glTF, beta)",https://create.roblox.com/docs/art/modeling/gltf-export,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,beta; permissions; no animation
+S421,mesh-import-export,MeshPart class,https://create.roblox.com/docs/reference/engine/classes/MeshPart,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S422,mesh-import-export,Blender manual: glTF 2.0,https://docs.blender.org/manual/en/latest/addons/scene_gltf2.html,Blender manual (CC-BY-SA 4.0),n/a,2026-10-28,2026-10-28,use,glTF export options
+S423,mesh-import-export,New unified smart mesh importer beta,https://devforum.roblox.com/t/new-unified-smart-mesh-importer-beta/1583213,DevForum post (Roblox staff),n/a,2021-12-09,2026-10-28,caution,historic launch thread
+S424,mesh-import-export,Vertex colored mesh appears darker,https://devforum.roblox.com/t/vertex-colored-mesh-appears-darker-when-imported-into-roblox-studio/3067141,DevForum post,n/a,2024-07-13,2026-10-28,caution,unexpected vertex color tint fix
+S425,mesh-import-export,Importing meshes with vertex coloring,https://devforum.roblox.com/t/importing-meshes-with-vertex-coloring-into-roblox-studio/1023461,DevForum post,n/a,2021-02-03,2026-10-28,caution,older; UI changed since
+S426,mesh-import-export,Export/import options tutorial (EN/RU),https://devforum.roblox.com/t/enru-tutorial-for-beginners-options-for-exportimport-of-a-3d-model-and-solutions-to-some-problems/2724760,DevForum post,n/a,2023-11-30,2026-10-28,caution,beginner troubleshooting; check against docs
