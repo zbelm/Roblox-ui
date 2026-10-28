@@ -36,7 +36,7 @@ verified: 2026-10-28
   - Use quads where possible; no N-gons, no zero-thickness faces, meshes watertight [S417].
 - Roblox Blender plugin [S398][S399]:
   - Uploads selected objects from Blender to your Roblox inventory or group via Open Cloud, skipping manual export.
-  - Install the release zip with `Edit > Preferences > Add-ons > Install from Disk`, then use the `Roblox` tab in the `N` sidebar and `Install Dependencies`.
+  - Install the release zip with `Edit > Preferences > Add-ons > Install from Disk`, enable `Upload to Roblox`, then use the `Roblox` tab in the `N` sidebar and `Install Dependencies`.
   - Needs Blender 3.2 or newer per the repo.
   - Roblox describes it as a reference implementation to extend; the announcement thread dates from 2023 [S400].
 - Scripting Blender [S407][S408][S409][S410]:

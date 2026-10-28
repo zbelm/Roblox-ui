@@ -34,7 +34,7 @@ verified: 2026-10-28
   - Tools include `get_scene_info`, `execute_blender_code`, viewport screenshots, and asset search/import (Poly Haven, Sketchfab, Poly Pizza).
   - Setup: `uvx mcp-for-blender setup` or `claude mcp add blender uvx mcp-for-blender`, then `uvx mcp-for-blender install-addon`; check the `MCP for Blender` tab in the `N` sidebar.
   - The PyPI package was renamed from `blender-mcp` to `mcp-for-blender`; the old command still works.
-  - Telemetry is opt-in; content collection is off by default.
+  - Minimal anonymous usage telemetry (tool names, timing) is on by default; content collection is opt-in; `DISABLE_TELEMETRY=true` turns all of it off.
 - Verification loop after import, in Studio:
   - `execute_luau` runs a check like `snippets/mesh-verify-meshpart.luau`: size in studs, anchored, collision fidelity, triangle-heavy parts.
   - `screen_capture` confirms orientation and textures; Claude cannot judge art quality reliably, so keep a human look.
