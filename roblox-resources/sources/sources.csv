@@ -300,3 +300,14 @@ S298,genres,Guide to better horror experiences,https://devforum.roblox.com/t/gui
 S299,genres,Essence of an effective horror game,https://devforum.roblox.com/t/essence-of-an-effective-horror-game-from-a-design-perspective/1662923,DevForum post,n/a,not checked,2026-10-28,caution,critique of key-hunt loops
 S300,genres,Open Source Tower Defense post,https://devforum.roblox.com/t/open-source-tower-defense/3181957,no license; copylocked,no,2024-10-04,2026-10-28,skip,source not actually available
 S301,genres,"Eternal Empire (tycoon, roblox-ts)",https://github.com/evilbocchi/eternal-empire,CC BY-NC 4.0,no,2026-08-14,2026-10-28,caution,read only; non-commercial license
+S302,monetization,Monetization overview and guidelines,https://create.roblox.com/docs/production/monetization,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"honest discounts, no false urgency, PolicyService"
+S303,monetization,Regional pricing,https://create.roblox.com/docs/production/monetization/regional-pricing,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,max 70% discount; GetUsersPriceLevelsAsync
+S304,monetization,Developer Exchange,https://create.roblox.com/docs/production/monetization/developer-exchange,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,0.0038 USD per Earned Robux standard
+S305,monetization,U.S. 18+ DevEx rate,https://create.roblox.com/docs/production/monetization/18-plus-devex-rate,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,0.0054 rate for eligible purchases
+S306,monetization,Private servers,https://create.roblox.com/docs/production/monetization/private-servers,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S307,monetization,Paid access (Robux),https://create.roblox.com/docs/production/monetization/paid-access-robux,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S308,monetization,Immersive ads,https://create.roblox.com/docs/production/monetization/immersive-ads,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S309,monetization,Rewarded video ads,https://create.roblox.com/docs/production/promotion/rewarded-video-ads,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S310,monetization,Commerce products,https://create.roblox.com/docs/production/monetization/commerce-products,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,real-world goods; eligibility limits
+S311,monetization,PolicyService API,https://create.roblox.com/docs/reference/engine/classes/PolicyService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,per-user eligibility flags
+S312,monetization,Roblox Community Standards,https://about.roblox.com/community-standards,Roblox policy,n/a,not shown,2026-10-28,use,economy and paid random items sections
