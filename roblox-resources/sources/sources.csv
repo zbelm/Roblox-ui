@@ -293,3 +293,10 @@ S291,npc-ai,SimplePath docs,https://grayzcale.github.io/simplepath,MIT,yes,dead,
 S292,npc-ai,AI behavior frameworks post,https://devforum.roblox.com/t/using-ai-behavior-frameworks-for-npcs/3482097,DevForum post,n/a,not checked,2026-10-28,use,"state machines, utility AI explained"
 S293,npc-ai,Behavior trees tutorial,https://devforum.roblox.com/t/tutorial-for-how-i-use-behavior-trees-for-my-npc/2806049,DevForum post,n/a,not checked,2026-10-28,caution,uses BTrees5 plugin
 S294,npc-ai,TreeAI,https://devforum.roblox.com/t/treeai-easily-create-behavior-trees-for-your-npcs/4034006,no license stated,unclear,2025-10-30 (fix 2025-12-26),2026-10-28,caution,Creator Store plugin and module
+S295,genres,Design for Roblox (genre table),https://create.roblox.com/docs/production/game-design/design-for-roblox,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,official genre definitions and examples
+S296,genres,Roblox user base,https://create.roblox.com/docs/production/roblox-user-base,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,audience and genre glossary
+S297,genres,Contextual purchases,https://create.roblox.com/docs/production/game-design/contextual-purchases,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,genre-linked monetization moments
+S298,genres,Guide to better horror experiences,https://devforum.roblox.com/t/guide-to-making-better-horror-experiences/2212571,DevForum post,n/a,not checked,2026-10-28,caution,community tutorial
+S299,genres,Essence of an effective horror game,https://devforum.roblox.com/t/essence-of-an-effective-horror-game-from-a-design-perspective/1662923,DevForum post,n/a,not checked,2026-10-28,caution,critique of key-hunt loops
+S300,genres,Open Source Tower Defense post,https://devforum.roblox.com/t/open-source-tower-defense/3181957,no license; copylocked,no,2024-10-04,2026-10-28,skip,source not actually available
+S301,genres,"Eternal Empire (tycoon, roblox-ts)",https://github.com/evilbocchi/eternal-empire,CC BY-NC 4.0,no,2026-08-14,2026-10-28,caution,read only; non-commercial license
