@@ -214,3 +214,19 @@ S212,architecture,jecs ECS,https://github.com/Ukendio/jecs,MIT,yes,2026-10-22,20
 S213,architecture,jecs DevForum thread,https://devforum.roblox.com/t/jecs-optimizing-declarative-scene-graphs-with-ecs/3263203,DevForum post,n/a,2024-11-17,2026-10-28,use,
 S214,architecture,Matter ECS,https://github.com/evaera/matter,MIT,yes,2024-07-16,2026-10-28,caution,inactive since 2024
 S215,architecture,Flamework (roblox-ts),https://github.com/rbxts-flamework/core,MIT,yes,2025-09-03,2026-10-28,caution,TypeScript-only framework
+S216,networking,Remote events and callbacks,https://create.roblox.com/docs/scripting/events/remote,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"delivery guarantees, argument limits"
+S217,networking,RemoteEvent API,https://create.roblox.com/docs/reference/engine/classes/RemoteEvent,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,~500 req/s per client shared limit
+S218,networking,UnreliableRemoteEvent API,https://create.roblox.com/docs/reference/engine/classes/UnreliableRemoteEvent,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,1000 byte payload cap
+S219,networking,buffer library,https://create.roblox.com/docs/reference/engine/libraries/buffer,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S220,networking,Network ownership (physics),https://create.roblox.com/docs/physics/network-ownership,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S221,networking,MicroProfiler network view,https://create.roblox.com/docs/performance-optimization/microprofiler/network,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,capture remote traffic
+S222,networking,Zap,https://github.com/red-blox/Zap,MIT,yes,2026-06-23,2026-10-28,use,IDL to typed buffer networking code
+S223,networking,Zap docs,https://zap.redblox.dev,MIT,yes,not shown,2026-10-28,use,
+S224,networking,Blink,https://github.com/1Axen/blink,MIT,yes,2026-09-19,2026-10-28,use,IDL compiler; 1.0 pre-release
+S225,networking,Blink docs,https://1axen.github.io/blink/,MIT,yes,not shown,2026-10-28,use,
+S226,networking,Blink DevForum thread,https://devforum.roblox.com/t/blink-an-idl-compiler-written-in-luau-for-roblox-buffer-networking-0185/2959671,DevForum post,n/a,not checked,2026-10-28,use,
+S227,networking,ByteNet,https://github.com/ffrostfall/ByteNet,MIT,yes,2025-08-01,2026-10-28,caution,runtime schema library; slower activity
+S228,networking,Packet (Suphi),https://devforum.roblox.com/t/packet-networking-library/3573907,permissive grant in post,yes,2025-03-26,2026-10-28,caution,"Creator Store only; batching, per-tick limit"
+S229,networking,Replica (MadStudio),https://github.com/MadStudioRoblox/Replica,Apache-2.0,yes,2025-08-07,2026-10-28,use,server-to-client state replication
+S230,networking,Zap vs ByteNet thread,https://devforum.roblox.com/t/zap-or-bytenet-performance-security/2888968,DevForum post,n/a,not checked,2026-10-28,caution,community benchmarks
+S231,networking,Player API (GetNetworkPing),https://create.roblox.com/docs/reference/engine/classes/Player,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,GetNetworkPing; many deprecated members
