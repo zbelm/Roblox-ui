@@ -269,3 +269,14 @@ S267,gameplay-systems,ShapecastHitbox,https://github.com/TeamSwordphin/Shapecast
 S268,gameplay-systems,Raycast Hitbox 4 thread,https://devforum.roblox.com/t/raycast-hitbox-401-for-all-your-melee-needs/374482,DevForum post,n/a,older; superseded,2026-10-28,caution,legacy melee hitbox module
 S269,gameplay-systems,HitboxClass v2.0,https://devforum.roblox.com/t/hitboxclass-v20-a-powerful-oop-based-hitbox-module/3929512,no license stated,unclear,2025-09-11 (update 2026-10),2026-10-28,caution,now paid; Creator Store only
 S270,gameplay-systems,Humanoid API,https://create.roblox.com/docs/reference/engine/classes/Humanoid,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,TakeDamage; LoadAnimation deprecated
+S271,progression,Core loops,https://create.roblox.com/docs/production/game-design/core-loops,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,progression engine
+S272,progression,Onboarding (FTUE),https://create.roblox.com/docs/production/game-design/onboarding,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"D1 retention funnel, goals"
+S273,progression,Onboarding techniques,https://create.roblox.com/docs/production/game-design/onboarding-techniques,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"visual cues, contextual tutorials, hints"
+S274,progression,Quest design,https://create.roblox.com/docs/production/game-design/introduction-to-quest-design,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"objective, quantity, reward; dailies"
+S275,progression,Season pass design,https://create.roblox.com/docs/production/game-design/season-pass-design,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S276,progression,Badges,https://create.roblox.com/docs/production/publishing/badges,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,5 free per 24 h then 100 Robux
+S277,progression,BadgeService API,https://create.roblox.com/docs/reference/engine/classes/BadgeService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"AwardBadge, UserHasBadge deprecated"
+S278,progression,Missions feature package,https://create.roblox.com/docs/resources/feature-packages/missions,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,quests with UI and server logic
+S279,progression,Engagement rewards package,https://create.roblox.com/docs/resources/feature-packages/engagement-rewards,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,daily and playtime rewards
+S280,progression,Level Up System Math,https://devforum.roblox.com/t/level-up-system-math/1474055,DevForum post,n/a,older (not checked),2026-10-28,caution,quadratic curve with inverse formula
+S281,progression,How do you design your levelling system,https://devforum.roblox.com/t/how-do-you-design-your-levelling-system/98750,DevForum post,n/a,older,2026-10-28,caution,curve examples discussion
