@@ -321,3 +321,14 @@ S319,policy-compliance,Bans API,https://create.roblox.com/docs/production/bans,R
 S320,policy-compliance,Safety for creators,https://create.roblox.com/docs/safety,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,safety tools and analytics
 S321,policy-compliance,Account verification,https://create.roblox.com/docs/production/publishing/account-verification,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,government ID verification
 S322,policy-compliance,Age estimation (age checks),https://about.roblox.com/age-estimation,Roblox policy page,n/a,not shown,2026-10-28,use,age checks unlock chat
+S323,publishing-discovery,Discovery (how recommendation works),https://create.roblox.com/docs/discovery,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"signals, limits on exposure, custom thumbnail needed"
+S324,publishing-discovery,Discovery FAQ,https://create.roblox.com/docs/discovery-faq,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,new-game signal stages
+S325,publishing-discovery,Thumbnails,https://create.roblox.com/docs/production/publishing/thumbnails,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,16:9 1920x1080; up to 10; personalization
+S326,publishing-discovery,Experience icons,https://create.roblox.com/docs/production/publishing/experience-icons,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,512x512 square
+S327,publishing-discovery,Descriptions (experimental guidelines),https://create.roblox.com/docs/production/publishing/descriptions,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S328,publishing-discovery,Experience genres,https://create.roblox.com/docs/production/publishing/experience-genres,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,genre accuracy affects discovery
+S329,publishing-discovery,Publish games and places,https://create.roblox.com/docs/production/publishing/publish-games-and-places,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"release settings, opt out of RFY"
+S330,publishing-discovery,Search ads,https://create.roblox.com/docs/production/promotion/search-ads,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S331,publishing-discovery,Ads Manager,https://create.roblox.com/docs/production/promotion/ads-manager,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S332,publishing-discovery,Share links,https://create.roblox.com/docs/production/promotion/share-links,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,track acquisition
+S333,publishing-discovery,Referral system,https://create.roblox.com/docs/production/promotion/referral-system,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,reward invites; abuse prevention
