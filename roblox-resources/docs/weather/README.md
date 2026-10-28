@@ -74,7 +74,9 @@ reads well.
 - Community weather modules on DevForum rarely state a license. "Open source" in a post is not a license; when none is given, treat reuse as permission-uncertain and ask the author or write your own.
 - Paid "weather engines" (BuiltByBit listings, the 2026 "Advanced Atmospheric Engine" thread) are closed or not yet released. Skip unless you buy and review the code.
 
-## Community resources
+## Sources
+
+### Community resources
 
 | Name | URL | License | Updated | Verdict |
 |---|---|---|---|---|
@@ -85,7 +87,7 @@ reads well.
 | HYPER Weather (DevForum) | https://devforum.roblox.com/t/hyper-realistic-weather-for-roblox-rain-snow-storms-and-more/3158864 | Not stated | 2024-09-15 | Use with caution. Creator Store model; license and price unclear. |
 | How To: Custom Day-Night System (DevForum) | https://devforum.roblox.com/t/how-to-custom-day-night-system/712476 | Not stated | Older thread (date not checked) | Use with caution as reading on lighting design. |
 
-## Sources
+### Official docs
 
 - https://create.roblox.com/docs/environment
 - https://create.roblox.com/docs/environment/lighting

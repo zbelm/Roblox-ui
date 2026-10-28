@@ -55,7 +55,7 @@ debug. Stick with Luau unless the team already lives in TypeScript.
 (https://github.com/Roblox/studio-rust-mcp-server, MIT, last commit 2026-04-03) so
 an assistant can inspect and edit an open place. Review every change it makes.
 
-## Vetting Creator Store assets
+### Vetting Creator Store assets
 
 Free models are the main source of backdoors. Roblox's store rules ban
 obfuscation, `getfenv`/`setfenv`, and loading remote code (`require(assetId)`,
@@ -81,7 +81,9 @@ Docs: https://create.roblox.com/docs/production/creator-store
 - `rojo serve` exposes a local port; only run it on trusted networks.
 - Never commit `.ROBLOSECURITY` cookies, Open Cloud API keys, or `.env` files. Rojo and Wally do not need them for normal work; CI publishing uses Open Cloud keys stored as CI secrets.
 
-## More repos worth reading
+## Sources
+
+### More repos worth reading
 
 | Name | URL | License | Last commit | Verdict |
 |---|---|---|---|---|
@@ -95,7 +97,21 @@ Docs: https://create.roblox.com/docs/production/creator-store
 | Aftman | https://github.com/LPGhatguy/aftman | MIT | 2025-07-09 | Skip; unmaintained. |
 | Foreman | https://github.com/Roblox/foreman | MIT | 2026-05-01 | Use with caution; prefer Rokit. |
 
-## Sources
+### Learning: YouTube
+
+YouTube channel pages only returned their titles to this session, so upload
+recency, subscriber counts, and content were not verified. Searches for "best
+channels" lists returned SEO filler, so these are names repeatedly cited by the
+community; check upload dates and whether a video uses Knit or Roact before
+following it.
+
+| Channel | URL | Verified | Verdict |
+|---|---|---|---|
+| GnomeCode | https://www.youtube.com/@GnomeCode | Channel exists | Use with caution. Project-based tutorials (unverified focus). |
+| Suphi Kaner | https://www.youtube.com/@SuphiKaner | Channel exists | Use with caution. In-depth Luau and engine topics (unverified focus). |
+| BrawlDev | https://www.youtube.com/@BrawlDevRBLX | Channel exists | Use with caution. Beginner scripting series (unverified focus). |
+
+### Other
 
 All URLs above, plus https://create.roblox.com/docs/projects/assets/packages for
 Packages and https://github.com/topics/roblox for discovery.

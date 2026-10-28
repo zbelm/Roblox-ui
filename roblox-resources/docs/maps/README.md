@@ -67,7 +67,9 @@ https://create.roblox.com/docs/parts/model-generation
 - Quaternius assets cannot be re-uploaded as free standalone models for others; keep them inside your game.
 - Older community generators (for example EgoMoose's 2016 dungeon generator) still read well but use dated APIs.
 
-## Community resources
+## Sources
+
+### Community resources
 
 | Name | URL | License | Updated | Verdict |
 |---|---|---|---|---|
@@ -75,9 +77,9 @@ https://create.roblox.com/docs/parts/model-generation
 | Maze World | https://github.com/MayGo/maze-world | MIT | 2024-11-25 | Use with caution. Small full Rojo game with maze generation; uses legacy Roact and Rodux. Read, do not copy the UI layer. |
 | EgoMoose dungeon generator | https://github.com/EgoMooseOldProjects/Dungeon-generator | MIT | 2016-02-13 | Skip except as reading; abandoned. |
 | Terrain updates announcement | https://devforum.roblox.com/t/terrain-updates-object-scattering-path-splines-projected-terrain-decals-and-more/4865617 | n/a | 2026-09-11 | Use it to track what is coming. |
-| Custom terrain materials launch | https://devforum.roblox.com/t/full-launch-publish-games-with-custom-terrain-materials-and-performance-improvements/4950620 | n/a | October 2026 | Use it. |
+| Custom terrain materials launch | https://devforum.roblox.com/t/full-launch-publish-games-with-custom-terrain-materials-and-performance-improvements/4950620 | n/a | 2026-10-22 | Use it. |
 
-## Sources
+### Official docs
 
 - https://create.roblox.com/docs/parts/terrain
 - https://create.roblox.com/docs/parts/custom-terrain-materials
