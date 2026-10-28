@@ -1,6 +1,5 @@
 --!strict
--- Pure Luau; no engine APIs. unverified: not run in Studio.
--- Concept: versioned player data with ordered migrations and template defaults.
+-- Pure Luau, no engine APIs. unverified: not run in Studio. Concept: ordered schema migrations + defaults.
 
 export type DataV3 = {
 	version: number,

@@ -170,3 +170,20 @@ S168,data-persistence,DocumentService docs,https://anthony0br.github.io/Document
 S169,data-persistence,Suphi's DataStore Module,https://devforum.roblox.com/t/suphis-datastore-module/2425597,permissive grant in post; no repo,yes,2023-06-19 (v1.1 noted),2026-10-28,caution,official copy loaded by asset id
 S170,data-persistence,DataStore2 (Kampfkarren),https://github.com/Kampfkarren/Roblox,custom license,unclear,2023-03-17,2026-10-28,skip,Roblox docs call it legacy
 S171,data-persistence,Data Stores Batch Processor CLI,https://github.com/Roblox/data-stores-batch-processor-cli,MIT,yes,2026-10-01,2026-10-28,use,Roblox tool for bulk data jobs
+S172,security,Security tactics,https://create.roblox.com/docs/scripting/security/security-tactics,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,never trust client; server truth
+S173,security,Client-server boundary,https://create.roblox.com/docs/scripting/security/client-server-boundary,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"remote validation, NaN, token bucket"
+S174,security,Server-side detection,https://create.roblox.com/docs/scripting/security/server-side-detection,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"heuristics, honeypots, consequences"
+S175,security,Network ownership (security),https://create.roblox.com/docs/scripting/security/network-ownership,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,movement validation
+S176,security,Access control,https://create.roblox.com/docs/scripting/security/access-control,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"replication visibility, teleport safety"
+S177,security,Third-party vulnerabilities,https://create.roblox.com/docs/scripting/security/third-party-vulnerabilities,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,backdoors in assets and plugins
+S178,security,Defensive design,https://create.roblox.com/docs/scripting/security/defensive-design,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S179,security,Device trust (IntegrityService),https://create.roblox.com/docs/scripting/security/device-trust,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,PlayerDeviceTrustLevel; partial platform support
+S180,security,Server authority model,https://create.roblox.com/docs/projects/server-authority,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"prediction, rollback; AuthorityMode"
+S181,security,Server authority techniques,https://create.roblox.com/docs/projects/server-authority/techniques,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S182,security,Server Authority full release,https://devforum.roblox.com/t/full-release-ship-fair-and-competitive-games-with-server-authority/4727993,DevForum post,n/a,2026-07-09,2026-10-28,use,opt-in; limitations listed
+S183,security,Server Authority Studio Beta post,https://devforum.roblox.com/t/studio-beta-build-fair-responsive-games-with-server-authority/4139157,DevForum post,n/a,not checked,2026-10-28,caution,older beta details; check release post
+S184,security,Protect RemoteEvents thread,https://devforum.roblox.com/t/best-way-to-protect-remoteevents-against-exploiters/1314739,DevForum post,n/a,2021 thread,2026-10-28,caution,"community consensus: validate, rate limit"
+S185,security,t (runtime type checker),https://github.com/osyrisrblx/t,MIT,yes,2025-03-11,2026-10-28,use,stable; low activity
+S186,security,Adonis admin system,https://github.com/Epix-Incorporated/Adonis,MIT,yes,2026-10-27,2026-10-28,caution,large admin system; audit permissions
+S187,security,Script capabilities (sandboxing),https://create.roblox.com/docs/scripting/capabilities,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Sandboxed models; capabilities beta
+S188,security,RemoteFunction API,https://create.roblox.com/docs/reference/engine/classes/RemoteFunction,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,server yields forever if client never returns
