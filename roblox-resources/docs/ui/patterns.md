@@ -1,63 +1,38 @@
-# UI patterns: HUD, menus, shops, inventories, notifications
-
-Last verified: 2026-10-28
-
-Back to [README.md](README.md).
-
-## Structure that scales
-
-- One `ScreenGui` per layer, ordered with `DisplayOrder`: HUD (0), menus (10), modals (20), toasts (30). Set `ResetOnSpawn = false` on all of them so UI is not rebuilt on every respawn.
-- Keep UI code client-side under `StarterPlayerScripts`; keep templates (button, slot, toast) in `ReplicatedStorage` and clone them.
-- UI never decides outcomes. It sends intent to the server (buy item 12, equip slot 3) and renders state the server replicates (attributes, values, or a replication library).
-
-## HUD
-
-- Currency, health, and objective readouts in the top-left or top-right, inside `CoreUISafeInsets`.
-- Animate number changes (count up over 0.3 s) instead of snapping; it makes rewards feel earned.
-- Hide non-essential HUD on small screens; use `ProximityPrompt` for world interactions instead of permanent buttons. Docs: https://create.roblox.com/docs/ui/proximity-prompts
-
-## Menus and modals
-
-- Open/close with a short tween (0.15 to 0.3 s): position slide plus `CanvasGroup.GroupTransparency` fade. Snippet: [../../snippets/ui-tween-panel.luau](../../snippets/ui-tween-panel.luau).
-- One modal at a time. Track the open one in a single controller so a second open request closes the first.
-- Gamepad: when a menu opens, set `GuiService.SelectedObject` to its first button.
-
-## Shops
-
-- Roblox's own Shop surface (in-game and on the game page) lists passes and developer products. Docs: https://create.roblox.com/docs/production/monetization/shop
-- Custom shop UI flow: button calls `MarketplaceService:PromptProductPurchase` on the client; the server grants in its receipt handler; the UI updates when the server's replicated balance changes. Do not grant from the client prompt-finished event.
-- `MarketplaceService:GetProductInfo` is deprecated in the current API reference; `GetProductInfoAsync` is its replacement for showing price and name.
-- Show item previews with a `ViewportFrame` (3D model rendered inside UI). Docs: https://create.roblox.com/docs/ui/viewport-frames
-- Use 9-slice images for scalable panels and buttons so corners do not stretch. Docs: https://create.roblox.com/docs/ui/9-slice
-
-## Inventories
-
-- `ScrollingFrame` + `UIGridLayout` (or `UIListLayout` with `Wraps = true`) for slots; `AutomaticCanvasSize` to size the scroll area. Docs: https://create.roblox.com/docs/ui/scrolling-frames
-- Slot squares: Scale width plus `UIAspectRatioConstraint`.
-- Drag and drop: `UIDragDetector` (replaces deprecated `GuiObject.Draggable`). Docs: https://create.roblox.com/docs/ui/ui-drag-detectors
-- Hundreds of items: reuse slot instances (virtualize) instead of creating one per item.
-
-## Notifications
-
-- In-game toasts: your own toast stack (a `UIListLayout` anchored to a corner, each toast tweens in, waits, tweens out). `StarterGui:SetCore("SendNotification", ...)` exists but gives little styling control.
-- Off-platform notifications (to players not in the game) use `ExperienceNotificationService`, which players must opt into. Docs: https://create.roblox.com/docs/production/promotion/experience-notifications. See [../events/README.md](../events/README.md).
-
-## Text
-
-- Rich text tags for inline color/bold: https://create.roblox.com/docs/ui/rich-text
-- Any player-written text shown to other players must go through text filtering: https://create.roblox.com/docs/ui/text-filtering
-- Typewriter effect: animate `MaxVisibleGraphemes`.
-
-## Ready-made Roblox feature packages (include UI)
-
-Season passes, missions, bundles, and engagement rewards ship with default UI you
-can restyle: https://create.roblox.com/docs/resources/feature-packages.
-Insert only from Roblox's official listing and read the scripts first.
-
-## Visual reference galleries
-
-| Name | URL | Status 2026-10-28 | Verdict |
-|---|---|---|---|
-| Interface In Game | https://interfaceingame.com | Loads; games added through Oct 2026 | Use it for menu, inventory, store, and HUD reference screenshots. Reference only; screenshots are copyrighted game art. |
-| Game UI Database | https://www.gameuidatabase.com | Returned HTTP 403 to this session | Unverified. Widely used reference site; check it in a browser. |
-| Figma Community ("roblox gui kit", "game ui kit") | https://www.figma.com/community | Search returned HTTP 403 to this session | Unverified. Check each file's license on its page before reuse; many kits are personal-use only. |
+---
+topic: ui
+summary: HUD, menu, shop, inventory, notification, and text patterns, plus visual reference galleries
+keywords: HUD, DisplayOrder, ResetOnSpawn, modal, CanvasGroup, GuiService.SelectedObject, shop, PromptProductPurchase, GetProductInfoAsync, ViewportFrame, 9-slice, inventory, ScrollingFrame, AutomaticCanvasSize, UIDragDetector, toast, ExperienceNotificationService, rich text, text filtering, MaxVisibleGraphemes, feature packages
+verified: 2026-10-28
+---
+# UI patterns
+## Use this
+- Viewport frames: 3D item previews inside UI https://create.roblox.com/docs/ui/viewport-frames [S12]
+- UI drag detectors: drag and drop, replaces `GuiObject.Draggable` https://create.roblox.com/docs/ui/ui-drag-detectors [S15]
+- 9-slice: scalable panels and buttons without stretched corners https://create.roblox.com/docs/ui/9-slice [S13]
+- Interface In Game: menu, inventory, store, HUD reference screenshots https://interfaceingame.com [S158]
+- Scrolling frames: inventory lists and grids https://create.roblox.com/docs/ui/scrolling-frames [S14]
+## Concepts
+- Structure:
+  - One `ScreenGui` per layer ordered by `DisplayOrder`: HUD 0, menus 10, modals 20, toasts 30; `ResetOnSpawn = false`.
+  - UI code in `StarterPlayerScripts`; templates (button, slot, toast) in `ReplicatedStorage`, cloned.
+  - UI sends intent and renders server-replicated state; it never decides outcomes.
+- HUD: readouts top-left/top-right inside `CoreUISafeInsets`; count numbers up over ~0.3 s; use `ProximityPrompt` for world interactions [S11].
+- Menus: 0.15-0.3 s slide plus `CanvasGroup.GroupTransparency` fade (`snippets/ui-tween-panel.luau`); one modal at a time via a single controller; set `GuiService.SelectedObject` on open for gamepads.
+- Shops [S20]:
+  - Roblox's Shop surface lists passes and developer products in-game and on the game page.
+  - Flow: client calls `MarketplaceService:PromptProductPurchase`; server grants in the receipt handler; UI updates from replicated balance.
+  - Show name and price with `GetProductInfoAsync`.
+  - Previews via `ViewportFrame` [S12]; 9-slice panels [S13].
+- Inventories: `ScrollingFrame` plus `UIGridLayout` (or `UIListLayout` with `Wraps`), `AutomaticCanvasSize`; slots use Scale width plus `UIAspectRatioConstraint`; `UIDragDetector` for drag; reuse slot instances for hundreds of items [S14][S15].
+- Notifications: build a toast stack (`UIListLayout` in a corner, tween in/out); `StarterGui:SetCore("SendNotification")` offers little styling. Off-platform, opt-in notifications use `ExperienceNotificationService` [S45].
+- Text: rich text tags for inline styling [S16]; filter any player-written text shown to others [S17]; typewriter effect via `MaxVisibleGraphemes`.
+- Feature packages (season passes, missions, bundles, engagement rewards) ship default UI you can restyle [S47].
+## Gotchas
+- Do not grant purchases from the client prompt-finished event [S20].
+- `MarketplaceService:GetProductInfo` is deprecated; use `GetProductInfoAsync`.
+- Insert feature packages only from Roblox's official listing and read the scripts [S47].
+- Interface In Game screenshots are copyrighted game art; reference only [S158].
+- Game UI Database returned HTTP 403; unverified [S159].
+- Figma Community search returned HTTP 403; unverified; many kits are personal-use only, check each license [S160].
+## Sources
+S11, S12, S13, S14, S15, S16, S17, S20, S45, S47, S158, S159, S160

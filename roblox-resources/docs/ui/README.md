@@ -1,85 +1,39 @@
+---
+topic: ui
+summary: How to lay out, scale, style, and animate Roblox UI, and which UI library to pick
+keywords: ScreenGui, PlayerGui, GuiObject, UDim2, Scale, Offset, AnchorPoint, UIListLayout, UIFlexItem, UIGridLayout, StyleSheet, StyleRule, StyleLink, StyleDerive, TweenService, CanvasGroup, React Luau, Fusion, Flipbook, deprecated
+verified: 2026-10-28
+---
 # UI / GUI
-
-Last verified: 2026-10-28
-
-## Purpose
-
-Answers: how to lay out, scale, style, and animate Roblox UI (HUD, menus, shops,
-inventories, notifications), and which UI library to pick. Deeper notes:
-
-- [layout-and-scaling.md](layout-and-scaling.md): Scale vs Offset, safe areas, flex layouts, responsive rules
-- [libraries.md](libraries.md): React Luau, Fusion, Vide, Iris, Flipbook, and what is deprecated
-- [patterns.md](patterns.md): HUD, menus, shops, inventories, notifications, tweens, and reference galleries
-- Design tokens live with the rest of the token material: [../economy-tokens/design-tokens.md](../economy-tokens/design-tokens.md)
-
-## Top 5 picks
-
-1. **Roblox UI docs** (https://create.roblox.com/docs/ui). Official guide set covering containers, position and size, list/flex and grid layouts, styling, and animation. Use it.
-2. **UI Styling (StyleSheet / StyleRule / StyleLink / StyleDerive)** (https://create.roblox.com/docs/ui/styling). Native CSS-like styling with tokens and themes. Left beta on 2026-01-20 ([announcement](https://devforum.roblox.com/t/full-release-ui-styling-is-officially-released/4275082)). Use it for theming instead of hand-rolled "set every property" code.
-3. **React Luau, official Roblox package** (https://github.com/Roblox/react-luau, Wally `roblox/react` 17.3.13). Declarative UI, MIT. Use it for large, stateful UI (shops, inventories).
-4. **Fusion 0.3** (https://elttob.uk/Fusion/0.3/). Reactive state plus instance creation, MIT. Use it if you prefer a smaller, Roblox-native API to React.
-5. **Flipbook** (https://github.com/flipbook-labs/flipbook). Storybook plugin to preview UI components in isolation, MIT. Use it once you have more than a handful of components.
-
-## How it works
-
-Every on-screen element lives under a `ScreenGui` in `PlayerGui`. Each `GuiObject`
-has a `Position` and `Size` stored as `UDim2`: four numbers, a Scale and an Offset
-for each axis. Scale is a fraction of the parent's size; Offset is a fixed pixel
-amount added on top. Scale makes UI stretch with the screen; Offset keeps things
-like icon sizes and padding crisp. Most good layouts mix them: Scale for where a
-panel sits and how wide it is, Offset (or a `UIScale` multiplier) for spacing and
-small elements. `AnchorPoint` decides which point of the element the position
-refers to; `(0.5, 0.5)` centers it.
-
-Layouts are done by child modifier objects instead of manual math. `UIListLayout`
-stacks children and, with its flex properties (`Wraps`, `HorizontalFlex`,
-`VerticalFlex`, `ItemLineAlignment`) plus a `UIFlexItem` on a child, behaves like
-CSS flexbox. `UIGridLayout` and `UITableLayout` handle grids such as inventory
-slots. `UIPadding`, `UICorner`, `UIStroke`, `UIGradient`, `UIAspectRatioConstraint`,
-and `UISizeConstraint` cover padding, rounding, outlines, gradients, and min/max
-sizes.
-
-Styling is now a first-class engine feature. A `StyleSheet` holds `StyleRule`s,
-each with a CSS-like `Selector` (class `TextButton`, tag `.Primary`, name `#Shop`,
-state `:Hover`, modifier `::UICorner`). Tokens are attributes on a StyleSheet,
-referenced as `"$Name"`. A `StyleLink` attaches a sheet to a `ScreenGui`, and a
-`StyleDerive` lets one sheet inherit tokens from another, which is how light/dark
-themes swap. See [../economy-tokens/design-tokens.md](../economy-tokens/design-tokens.md).
-
-Animation uses `TweenService:Create(object, TweenInfo, goals)`. Tween `Position`,
-`Size`, transparency, and color properties. Put a group of elements in a
-`CanvasGroup` to fade or tint them together with `GroupTransparency`. Style rules
-can also define property transitions, configured in the Style Editor.
-
-Libraries sit on top of all this. React Luau and Fusion create the same instances
-for you but derive them from state, so a shop UI re-renders when the player's
-coins change instead of you wiring every label by hand.
-
+Files: layout-and-scaling.md, libraries.md, patterns.md. Design tokens: ../economy-tokens/design-tokens.md.
+## Use this
+- Roblox UI docs: containers, position/size, list/flex/grid layouts, styling, animation https://create.roblox.com/docs/ui [S1]
+- UI Styling: native CSS-like styling with tokens and themes; out of beta 2026-01-20 https://create.roblox.com/docs/ui/styling [S7][S68]
+- React Luau (`roblox/react` 17.3.13, MIT): declarative UI for large stateful screens https://github.com/Roblox/react-luau [S85]
+- Fusion 0.3 (MIT): smaller Roblox-native reactive API https://elttob.uk/Fusion/0.3/ [S90]
+- Flipbook (MIT): storybook plugin to preview components in isolation https://github.com/flipbook-labs/flipbook [S100]
+## Concepts
+- Every on-screen element lives under a `ScreenGui` in `PlayerGui` [S1].
+- `Position` and `Size` are `UDim2`: Scale (fraction of parent) plus Offset (pixels) per axis [S2].
+- Mix them: Scale for where panels sit and how wide they are; Offset or a `UIScale` multiplier for spacing and small elements [S2].
+- `AnchorPoint` sets which point the position refers to; `(0.5, 0.5)` centers [S2].
+- Layout via child modifiers: `UIListLayout` with flex properties (`Wraps`, `HorizontalFlex`, `VerticalFlex`, `ItemLineAlignment`) plus `UIFlexItem` behaves like flexbox; `UIGridLayout`/`UITableLayout` for grids [S3].
+- `UIPadding`, `UICorner`, `UIStroke`, `UIGradient`, `UIAspectRatioConstraint`, `UISizeConstraint` cover padding, rounding, outlines, gradients, min/max sizes [S1].
+- Styling: a `StyleSheet` holds `StyleRule`s with selectors (class `TextButton`, tag `.Primary`, name `#Shop`, state `:Hover`, modifier `::UICorner`) [S7].
+- Tokens are StyleSheet attributes referenced as `"$Name"`; `StyleLink` attaches a sheet to a `ScreenGui`; `StyleDerive` inherits tokens, which is how themes swap [S7].
+- Animation: `TweenService:Create(object, TweenInfo, goals)` on position, size, transparency, color; `CanvasGroup.GroupTransparency` fades a group; style rules can define transitions [S10].
+- React Luau and Fusion create the same instances but derive them from state, so UI re-renders when data changes [S85][S90].
+- Snippets: `snippets/ui-tween-panel.luau`, `snippets/ui-design-tokens.luau`, `snippets/ui-stylesheet-theme.luau`.
 ## Gotchas
-
-- `GuiObject:TweenPosition`, `TweenSize`, `TweenSizeAndPosition`, `GuiObject.Draggable`, `DragBegin`, `DragStopped`, `BackgroundColor`, `BorderColor`, and `Transparency` are deprecated in the current API reference. Use `TweenService` and `UIDragDetector`.
-- `TextLabel.FontSize`, `TextColor`, and `TextWrap` are deprecated. Use `TextSize`, `TextColor3`, `TextWrapped`, and `FontFace`.
-- **Roact (Roblox/roact) is deprecated**; its README says so. The jsdotlua/react-lua community fork has had no commits since 2024-12-04. New projects should use the official `roblox/react` package. Older tutorials (including the 2024 DevForum "How To: React + Roblox") still point at `jsdotlua/react`.
-- Knit is archived (README: "No Longer Maintained"). Do not start new projects on it.
-- Mobile reserves the bottom corners for the thumbstick and jump button. Use `ScreenGui.ScreenInsets` (default `CoreUISafeInsets`) instead of guessing top-bar height; `IgnoreGuiInset` is the older approach.
-- UI Styling cannot yet style multiple pseudo-instances of the same type (for example two `UIStroke`s) on one object; the release post's workaround is unique names or tags.
-- Only one StyleSheet applies to a given tree through a `StyleLink`; compose with `StyleDerive`, not by linking twice.
-- `PromptProductPurchaseFinished` does not mean a purchase succeeded. Shop UI must wait for the server's receipt handler. See [../economy-tokens/README.md](../economy-tokens/README.md).
-- Never trust the client for prices or currency. The UI sends an item id; the server looks up the price.
-- `flipbook-labs.com` did not resolve from this session (DNS blocked). The GitHub repo and https://flipbook-labs.github.io/flipbook/ do load.
-
+- Deprecated: `GuiObject:TweenPosition`, `TweenSize`, `TweenSizeAndPosition`, `Draggable`, `DragBegin`, `DragStopped`, `BackgroundColor`, `BorderColor`, `Transparency`; use `TweenService` and `UIDragDetector`.
+- Deprecated: `TextLabel.FontSize`, `TextColor`, `TextWrap`; use `TextSize`, `TextColor3`, `TextWrapped`, `FontFace`.
+- Roact is deprecated per its README [S88]; jsdotlua/react-lua has had no commits since 2024-12-04; the 2024 DevForum React guide still points at `jsdotlua/react` [S87][S69].
+- Knit is archived; do not start new projects on it [S103].
+- Mobile reserves the bottom corners; use `ScreenGui.ScreenInsets` (default `CoreUISafeInsets`); `IgnoreGuiInset` is older [S6][S2].
+- UI Styling cannot style two pseudo-instances of the same class (two `UIStroke`s) on one object; use unique names or tags [S68].
+- Only one StyleSheet applies per tree through a `StyleLink`; compose with `StyleDerive` [S7].
+- `PromptProductPurchaseFinished` does not mean a purchase succeeded; wait for the server receipt handler (see economy-tokens).
+- Never trust the client for prices or currency; send an item id, look up the price on the server.
+- flipbook-labs.com did not resolve (DNS); the repo and docs site load [S100][S101].
 ## Sources
-
-- https://create.roblox.com/docs/ui
-- https://create.roblox.com/docs/ui/position-and-size
-- https://create.roblox.com/docs/ui/list-flex-layouts
-- https://create.roblox.com/docs/ui/styling
-- https://create.roblox.com/docs/ui/animation
-- https://devforum.roblox.com/t/full-release-ui-styling-is-officially-released/4275082
-- https://github.com/Roblox/react-luau
-- https://elttob.uk/Fusion/0.3/
-- https://github.com/flipbook-labs/flipbook
-- https://flipbook-labs.github.io/flipbook/
-- https://github.com/Roblox/roact
-- https://github.com/Sleitnick/Knit
-- Snippets: [../../snippets/ui-tween-panel.luau](../../snippets/ui-tween-panel.luau), [../../snippets/ui-design-tokens.luau](../../snippets/ui-design-tokens.luau), [../../snippets/ui-stylesheet-theme.luau](../../snippets/ui-stylesheet-theme.luau)
+S1, S2, S3, S6, S7, S10, S68, S69, S85, S87, S88, S90, S100, S101, S103
