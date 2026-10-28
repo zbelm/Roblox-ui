@@ -346,3 +346,20 @@ S344,analytics-liveops,Player feedback,https://create.roblox.com/docs/production
 S345,analytics-liveops,Analytics essentials,https://create.roblox.com/docs/production/game-design/analytics-essentials,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
 S346,analytics-liveops,Content updates,https://create.roblox.com/docs/production/game-design/content-updates,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,update types and cadence
 S347,analytics-liveops,AnalyticsService API,https://create.roblox.com/docs/reference/engine/classes/AnalyticsService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Fire* methods deprecated; use Log*
+S348,localization-accessibility,Localization overview,https://create.roblox.com/docs/production/localization,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S349,localization-accessibility,Automatic translations,https://create.roblox.com/docs/production/localization/automatic-translations,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"auto text capture, supported languages"
+S350,localization-accessibility,Manual translations,https://create.roblox.com/docs/production/localization/manual-translations,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S351,localization-accessibility,Localize with scripting,https://create.roblox.com/docs/production/localization/localize-with-scripting,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"Translator, FormatByKey"
+S352,localization-accessibility,Translate dynamic content,https://create.roblox.com/docs/production/localization/translate-dynamic-content,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S353,localization-accessibility,LocalizationService API,https://create.roblox.com/docs/reference/engine/classes/LocalizationService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,GetTranslatorForPlayer deprecated
+S354,localization-accessibility,Accessibility guidelines,https://create.roblox.com/docs/production/publishing/accessibility,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"text size, contrast, preferences"
+S355,localization-accessibility,Adaptive design,https://create.roblox.com/docs/production/publishing/adaptive-design,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"any device, any input"
+S356,localization-accessibility,Console guidelines,https://create.roblox.com/docs/production/publishing/console-guidelines,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"10-foot UI, controllers"
+S357,localization-accessibility,Cross-platform input,https://create.roblox.com/docs/input,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"input type detection, default bindings"
+S358,localization-accessibility,Input Action System,https://create.roblox.com/docs/input/input-action-system,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"InputContext, InputAction, InputBinding"
+S359,localization-accessibility,Gamepad input,https://create.roblox.com/docs/input/gamepad,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S360,localization-accessibility,Mobile input,https://create.roblox.com/docs/input/mobile,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S361,localization-accessibility,GuiService API,https://create.roblox.com/docs/reference/engine/classes/GuiService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"PreferredTextSize, ReducedMotionEnabled"
+S362,localization-accessibility,WCAG contrast minimum,https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html,W3C document,n/a (reference),not checked,2026-10-28,use,4.5:1 text contrast target
+S363,localization-accessibility,WebAIM contrast checker,https://webaim.org/resources/contrastchecker/,free web tool,n/a,not shown,2026-10-28,use,
+S364,localization-accessibility,Coblis color blindness simulator,https://www.color-blindness.com/coblis-color-blindness-simulator/,free web tool,n/a,not shown,2026-10-28,use,preview screenshots as colorblind
