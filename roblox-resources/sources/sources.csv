@@ -332,3 +332,17 @@ S330,publishing-discovery,Search ads,https://create.roblox.com/docs/production/p
 S331,publishing-discovery,Ads Manager,https://create.roblox.com/docs/production/promotion/ads-manager,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
 S332,publishing-discovery,Share links,https://create.roblox.com/docs/production/promotion/share-links,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,track acquisition
 S333,publishing-discovery,Referral system,https://create.roblox.com/docs/production/promotion/referral-system,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,reward invites; abuse prevention
+S334,analytics-liveops,Analytics overview,https://create.roblox.com/docs/production/analytics,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S335,analytics-liveops,Analytics dashboard,https://create.roblox.com/docs/production/analytics/analytics-dashboard,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"filters, breakdowns, benchmarks"
+S336,analytics-liveops,Retention analytics,https://create.roblox.com/docs/production/analytics/retention,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,D1/D7/D30
+S337,analytics-liveops,Engagement analytics,https://create.roblox.com/docs/production/analytics/engagement,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S338,analytics-liveops,Monetization analytics,https://create.roblox.com/docs/production/analytics/monetization,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S339,analytics-liveops,Custom events,https://create.roblox.com/docs/production/analytics/custom-events,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,up to 100 events; LogCustomEvent
+S340,analytics-liveops,Custom fields,https://create.roblox.com/docs/production/analytics/custom-fields,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,up to 3 fields; lower cardinality cost
+S341,analytics-liveops,Funnel events,https://create.roblox.com/docs/production/analytics/funnel-events,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,onboarding and shop funnels
+S342,analytics-liveops,Economy events,https://create.roblox.com/docs/production/analytics/economy-events,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"sources, sinks, wallets"
+S343,analytics-liveops,Alerts,https://create.roblox.com/docs/production/analytics/alerts,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,threshold notifications
+S344,analytics-liveops,Player feedback,https://create.roblox.com/docs/production/analytics/feedback,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,collect and share feedback
+S345,analytics-liveops,Analytics essentials,https://create.roblox.com/docs/production/game-design/analytics-essentials,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S346,analytics-liveops,Content updates,https://create.roblox.com/docs/production/game-design/content-updates,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,update types and cadence
+S347,analytics-liveops,AnalyticsService API,https://create.roblox.com/docs/reference/engine/classes/AnalyticsService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Fire* methods deprecated; use Log*
