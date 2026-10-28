@@ -187,3 +187,19 @@ S185,security,t (runtime type checker),https://github.com/osyrisrblx/t,MIT,yes,2
 S186,security,Adonis admin system,https://github.com/Epix-Incorporated/Adonis,MIT,yes,2026-10-27,2026-10-28,caution,large admin system; audit permissions
 S187,security,Script capabilities (sandboxing),https://create.roblox.com/docs/scripting/capabilities,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Sandboxed models; capabilities beta
 S188,security,RemoteFunction API,https://create.roblox.com/docs/reference/engine/classes/RemoteFunction,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,server yields forever if client never returns
+S189,performance,Performance optimization overview,https://create.roblox.com/docs/performance-optimization,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S190,performance,Design for performance,https://create.roblox.com/docs/performance-optimization/design,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"low-end, transparency, scripting rules"
+S191,performance,Identify performance issues,https://create.roblox.com/docs/performance-optimization/identify,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,diagnostic tools by symptom
+S192,performance,Improve performance,https://create.roblox.com/docs/performance-optimization/improve,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,problems and mitigations by subsystem
+S193,performance,Performance dashboard,https://create.roblox.com/docs/performance-optimization/monitor,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,live game metrics
+S194,performance,Scene Analysis,https://create.roblox.com/docs/performance-optimization/scene-analysis,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,memory and instance composition tool
+S195,performance,Test on hardware,https://create.roblox.com/docs/performance-optimization/test-on-hardware,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,device and RAM statistics
+S196,performance,MicroProfiler,https://create.roblox.com/docs/performance-optimization/microprofiler,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S197,performance,Streaming techniques,https://create.roblox.com/docs/workspace/streaming/techniques,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,script patterns for streamed worlds
+S198,performance,SLIM models and avatars,https://create.roblox.com/docs/workspace/streaming/slim,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,cloud LOD for models and avatars
+S199,performance,Frustum streaming,https://create.roblox.com/docs/workspace/streaming/frustum,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,camera-view streaming
+S200,performance,Parallel Luau,https://create.roblox.com/docs/scripting/multithreading,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"Actors, task.desynchronize"
+S201,performance,MicroProfiler memory profiling announcement,https://devforum.roblox.com/t/introducing-microprofiler-memory-profiling-flame-graphs-diffs-and-much-more/3226910,DevForum post,n/a,2024-10-24,2026-10-28,use,"X-Ray, flame graphs, diffs"
+S202,performance,Definitive optimization tutorial,https://devforum.roblox.com/t/the-definitive-tutorial-to-game-optimization-everything-you-need-to-know/4629258,DevForum post,n/a,2026-05-10,2026-10-28,caution,useful; some overstated claims
+S203,performance,Optimization guide memory draw calls network,https://devforum.roblox.com/t/tutorial-roblox-optimization-guide-memory-draw-calls-and-network-tips/3881861,DevForum post,n/a,not checked,2026-10-28,caution,community tips; verify against docs
+S204,performance,Native code generation,https://create.roblox.com/docs/luau/native-code-gen,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,--!native for hot math code
