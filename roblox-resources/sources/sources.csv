@@ -230,3 +230,16 @@ S228,networking,Packet (Suphi),https://devforum.roblox.com/t/packet-networking-l
 S229,networking,Replica (MadStudio),https://github.com/MadStudioRoblox/Replica,Apache-2.0,yes,2025-08-07,2026-10-28,use,server-to-client state replication
 S230,networking,Zap vs ByteNet thread,https://devforum.roblox.com/t/zap-or-bytenet-performance-security/2888968,DevForum post,n/a,not checked,2026-10-28,caution,community benchmarks
 S231,networking,Player API (GetNetworkPing),https://create.roblox.com/docs/reference/engine/classes/Player,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,GetNetworkPing; many deprecated members
+S232,debugging,Studio debugging (breakpoints),https://create.roblox.com/docs/studio/debugging,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"breakpoints, watch, call stack"
+S233,debugging,Developer Console,https://create.roblox.com/docs/studio/developer-console,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"log, memory, network, script profiler"
+S234,debugging,Output window,https://create.roblox.com/docs/studio/output,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S235,debugging,Testing modes,https://create.roblox.com/docs/studio/testing-modes,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"multi-client, device, network simulation"
+S236,debugging,Network Simulator,https://create.roblox.com/docs/studio/network-simulator,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,latency and packet loss in Studio
+S237,debugging,Script Profiler,https://create.roblox.com/docs/studio/optimization/scriptprofiler,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S238,debugging,Memory usage (Studio),https://create.roblox.com/docs/studio/optimization/memory-usage,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S239,debugging,Use the MicroProfiler,https://create.roblox.com/docs/performance-optimization/microprofiler/use-microprofiler,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S240,debugging,Error report (analytics),https://create.roblox.com/docs/production/analytics/error-report,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"live error grouping, stack traces, rules"
+S241,debugging,ScriptContext API,https://create.roblox.com/docs/reference/engine/classes/ScriptContext,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Script timeout only if SetTimeout enabled
+S242,debugging,Studio MCP server docs,https://create.roblox.com/docs/studio/mcp,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,AI tools read and edit open place
+S243,debugging,MicroProfiler benchmarking tutorial,https://devforum.roblox.com/t/improving-game-performance-benchmarking-microprofiler-developer-stats-and-developer-console/1002074,DevForum post,n/a,not checked,2026-10-28,caution,older but clear walkthrough
+S244,debugging,MicroProfiler and Assistant announcement,https://devforum.roblox.com/t/automated-performance-profiling-with-microprofiler-and-assistant/4704417,DevForum post,n/a,not checked (2026),2026-10-28,caution,AI analysis of dumps; verify findings
