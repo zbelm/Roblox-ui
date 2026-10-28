@@ -255,7 +255,7 @@ S253,audio,Audio Upload License Agreement,https://en.help.roblox.com/hc/en-us/ar
 S254,audio,New music announcement (DistroKid),https://devforum.roblox.com/t/amplify-your-experiences-with-new-music/3164792,DevForum post,n/a,2024-09-19 (updated 2025-02-13),2026-10-28,use,Creator Store music only for Roblox use
 S255,audio,Roblox + Monstercat announcement,https://devforum.roblox.com/t/roblox-monstercat-3/688452,DevForum post,n/a,2020 (not checked),2026-10-28,caution,older partnership details
 S256,audio,Freesound FAQ (licenses),https://freesound.org/help/faq/,"per sound: CC0, CC-BY, CC-BY-NC",CC0/CC-BY yes; NC no,not shown,2026-10-28,caution,check license per sound
-S257,audio,Sonniss GDC Game Audio Bundle,https://sonniss.com/gameaudiogdc,Sonniss royalty-free license,yes; no redistribution as SFX packs,latest listed 2024,2026-10-28,use,no attribution; no AI training
+S257,audio,Sonniss GDC Game Audio Bundle,https://sonniss.com/gameaudiogdc,Sonniss royalty-free license,yes; no redistribution as SFX packs,latest listed 2024,2026-10-28,use,later behind bot-check page; loaded once
 S258,audio,SoundService API,https://create.roblox.com/docs/reference/engine/classes/SoundService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"AcousticSimulationEnabled: occlusion, diffraction, reverb"
 S259,gameplay-systems,Raycasting,https://create.roblox.com/docs/workspace/raycasting,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"RaycastParams, filtering"
 S260,gameplay-systems,Collisions and collision groups,https://create.roblox.com/docs/workspace/collisions,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"Touched, CollisionGroup"
