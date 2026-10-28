@@ -1,161 +1,172 @@
-topic,name,url,license,commercial_ok,last_updated,last_checked,verdict
-ui,UI docs index,https://create.roblox.com/docs/ui,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI position and size,https://create.roblox.com/docs/ui/position-and-size,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI list and flex layouts,https://create.roblox.com/docs/ui/list-flex-layouts,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI grid and table layouts,https://create.roblox.com/docs/ui/grid-table-layouts,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI size modifiers,https://create.roblox.com/docs/ui/size-modifiers,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI on-screen containers,https://create.roblox.com/docs/ui/on-screen-containers,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI styling,https://create.roblox.com/docs/ui/styling,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI Style Editor,https://create.roblox.com/docs/ui/styling/editor,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI styling CSS comparisons,https://create.roblox.com/docs/ui/styling/css-comparisons,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI animation,https://create.roblox.com/docs/ui/animation,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,Proximity prompts,https://create.roblox.com/docs/ui/proximity-prompts,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,Viewport frames,https://create.roblox.com/docs/ui/viewport-frames,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,9-slice,https://create.roblox.com/docs/ui/9-slice,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,Scrolling frames,https://create.roblox.com/docs/ui/scrolling-frames,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI drag detectors,https://create.roblox.com/docs/ui/ui-drag-detectors,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,Rich text,https://create.roblox.com/docs/ui/rich-text,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,Text filtering,https://create.roblox.com/docs/ui/text-filtering,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI/UX design guide,https://create.roblox.com/docs/production/game-design/ui-ux-design,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,UI design curriculum,https://create.roblox.com/docs/tutorials/curriculums/user-interface-design,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-ui,Shop (monetization),https://create.roblox.com/docs/production/monetization/shop,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-textures,Materials and MaterialService,https://create.roblox.com/docs/parts/materials,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-textures,Custom terrain materials,https://create.roblox.com/docs/parts/custom-terrain-materials,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-textures,PBR textures / SurfaceAppearance,https://create.roblox.com/docs/art/modeling/surface-appearance,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-textures,Texture specifications,https://create.roblox.com/docs/art/modeling/texture-specifications,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-textures,Textures and decals,https://create.roblox.com/docs/parts/textures-decals,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-textures,Assets overview,https://create.roblox.com/docs/projects/assets,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-maps,Terrain,https://create.roblox.com/docs/parts/terrain,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-maps,Procedural models,https://create.roblox.com/docs/parts/procedural-models,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-maps,Model generation (GenerationService),https://create.roblox.com/docs/parts/model-generation,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-maps,Environmental art curriculum,https://create.roblox.com/docs/tutorials/curriculums/environmental-art,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-maps,Streaming,https://create.roblox.com/docs/workspace/streaming,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-templates,Official templates,https://create.roblox.com/docs/resources/templates,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-templates,Packages,https://create.roblox.com/docs/projects/assets/packages,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-templates,Creator Store policy,https://create.roblox.com/docs/production/creator-store,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-weather,Environment docs index,https://create.roblox.com/docs/environment,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-weather,Lighting,https://create.roblox.com/docs/environment/lighting,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-weather,Atmosphere,https://create.roblox.com/docs/environment/atmosphere,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-weather,Clouds,https://create.roblox.com/docs/environment/clouds,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-weather,Skybox,https://create.roblox.com/docs/environment/skybox,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-weather,Global wind,https://create.roblox.com/docs/environment/global-wind,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-weather,Post-processing effects,https://create.roblox.com/docs/environment/post-processing-effects,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Experience configs (ConfigService),https://create.roblox.com/docs/production/configs,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Experiments,https://create.roblox.com/docs/production/experiments,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Experience events and updates,https://create.roblox.com/docs/production/promotion/experience-events,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Experience notifications,https://create.roblox.com/docs/production/promotion/experience-notifications,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Event Sequencer module,https://create.roblox.com/docs/resources/modules/event-sequencer,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Feature packages,https://create.roblox.com/docs/resources/feature-packages,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,LiveOps essentials,https://create.roblox.com/docs/production/game-design/liveops-essentials,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,LiveOps planning,https://create.roblox.com/docs/production/game-design/liveops-planning,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Cross-server messaging,https://create.roblox.com/docs/cloud-services/cross-server-messaging,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Data stores,https://create.roblox.com/docs/cloud-services/data-stores,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Data store best practices,https://create.roblox.com/docs/cloud-services/data-stores/best-practices,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Data store limits,https://create.roblox.com/docs/cloud-services/data-stores/error-codes-and-limits,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Data stores vs memory stores,https://create.roblox.com/docs/cloud-services/data-stores-vs-memory-stores,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-events,Memory stores,https://create.roblox.com/docs/cloud-services/memory-stores,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Player data and purchasing systems,https://create.roblox.com/docs/cloud-services/data-stores/player-data-purchasing,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Developer products,https://create.roblox.com/docs/production/monetization/developer-products,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Passes,https://create.roblox.com/docs/production/monetization/passes,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Subscriptions,https://create.roblox.com/docs/production/monetization/subscriptions,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Robux transfers,https://create.roblox.com/docs/production/monetization/robux-transfers,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Managed pricing,https://create.roblox.com/docs/production/monetization/managed-pricing,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Price optimization,https://create.roblox.com/docs/production/monetization/price-optimization,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Paid random items policy,https://create.roblox.com/docs/production/monetization/paid-random-items,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Balance virtual economies,https://create.roblox.com/docs/production/game-design/balance-virtual-economies,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-economy-tokens,Monetization foundations,https://create.roblox.com/docs/production/game-design/monetization-foundations,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use
-textures,Builder font license,https://create.roblox.com/docs/resources/builder-font-license,Roblox Builder font license (Roblox UGC only),"yes, on Roblox only",2026-10-27 (docs repo commit),2026-10-28,use
-textures,Creator Store,https://create.roblox.com/store,Roblox Terms of Use; no per-asset open license,yes inside Roblox; vet scripts,client-rendered; not visible,2026-10-28,caution
-ui,UI Styling full release announcement,https://devforum.roblox.com/t/full-release-ui-styling-is-officially-released/4275082,DevForum post (Roblox ToS); code license only if stated,n/a,2026-01-20,2026-10-28,use
-ui,How To: React + Roblox (2024 guide),https://devforum.roblox.com/t/how-to-react-roblox/2964543,DevForum post (Roblox ToS); code license only if stated,n/a,2024-05-10,2026-10-28,caution (recommends stale jsdotlua package)
-ui,Evolving Luau OSS announcement,https://devforum.roblox.com/t/evolving-luau-oss-community-contributions-more/4566806,DevForum post (Roblox ToS); code license only if stated,n/a,2026-04-09,2026-10-28,use
-textures,Custom terrain materials full launch,https://devforum.roblox.com/t/full-launch-publish-games-with-custom-terrain-materials-and-performance-improvements/4950620,DevForum post (Roblox ToS); code license only if stated,n/a,2026-10-22 (updated 2026-10-27),2026-10-28,use
-maps,"Terrain updates announcement (scattering, splines, decals)",https://devforum.roblox.com/t/terrain-updates-object-scattering-path-splines-projected-terrain-decals-and-more/4865617,DevForum post (Roblox ToS); code license only if stated,n/a,2026-09-11,2026-10-28,use (features not released)
-maps,Dungeon Generation guide,https://devforum.roblox.com/t/dungeon-generation-a-procedural-generation-guide/342413,DevForum post (Roblox ToS); code license only if stated,n/a,2019-09-01,2026-10-28,caution (old; good explanation)
-weather,Rain Module + Plugin thread,https://devforum.roblox.com/t/rain-module-plugin/157190,DevForum post (Roblox ToS); code license only if stated,n/a,2018-08-03 (repo active 2026-09-19),2026-10-28,use
-weather,Realistic Rain,https://devforum.roblox.com/t/feedback-open-source-realistic-rain-v112/1078997,DevForum post (Roblox ToS); code license only if stated,n/a,2021-04-16,2026-10-28,caution
-weather,SimpleWeather V2.0,https://devforum.roblox.com/t/simpleweather-v20-a-easy-to-use-weather-module/3626171,DevForum post (Roblox ToS); code license only if stated,n/a,2025-06-03,2026-10-28,caution (no license; Creator Store model)
-weather,HYPER Weather,https://devforum.roblox.com/t/hyper-realistic-weather-for-roblox-rain-snow-storms-and-more/3158864,DevForum post (Roblox ToS); code license only if stated,n/a,2024-09-15,2026-10-28,caution (no license stated)
-weather,How To: Custom Day-Night System,https://devforum.roblox.com/t/how-to-custom-day-night-system/712476,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,caution
-events,Configs and experiments launch,https://devforum.roblox.com/t/live-now-use-configs-and-experiments-to-grow-your-game-faster/4051385,DevForum post (Roblox ToS); code license only if stated,n/a,2025-11-06,2026-10-28,use
-events,Open Cloud Configs API announcement,https://devforum.roblox.com/t/programmatically-update-configs-the-open-cloud-configs-api/4509549,DevForum post (Roblox ToS); code license only if stated,n/a,not checked (2026),2026-10-28,use
-events,ConfigService list-keys feature request,https://devforum.roblox.com/t/configservice-should-support-listing-all-config-keys-in-an-experience/4165920,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,reference
-events,ProfileStore thread,https://devforum.roblox.com/t/profilestore-save-your-player-data-easy-datastore-module/3190543,DevForum post (Roblox ToS); code license only if stated,n/a,2024-10-11,2026-10-28,use
-events,Session locking explained,https://devforum.roblox.com/t/session-locking-explained-datastore/846799,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,caution (older)
-economy-tokens,Preventing duplication and data loss thread,https://devforum.roblox.com/t/how-do-i-prevent-duplication-of-ingame-itemscurrency-and-dataloss/3848629,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,reference
-ui,React Luau (official),https://github.com/Roblox/react-luau,MIT,yes,2026-10-13,2026-10-28,use
-ui,React Luau docs,https://www.react-luau.dev,MIT (project),yes,not shown,2026-10-28,use
-ui,react-lua (jsdotlua fork),https://github.com/jsdotlua/react-lua,MIT,yes,2024-12-04,2026-10-28,caution (stale)
-ui,Roact (legacy),https://github.com/Roblox/roact,Apache-2.0,yes,2023-12-12,2026-10-28,skip (deprecated)
-ui,Fusion repo,https://github.com/dphfox/Fusion,MIT,yes,2026-02-01,2026-10-28,use
-ui,Fusion 0.3 docs,https://elttob.uk/Fusion/0.3/,MIT (project),yes,not shown,2026-10-28,use
-ui,Vide,https://github.com/centau/vide,MIT,yes,2026-10-26,2026-10-28,use (pre-1.0)
-ui,Vide docs,https://centau.github.io/vide/,MIT (project),yes,not shown,2026-10-28,use
-ui,Iris,https://github.com/SirMallard/Iris,MIT,yes,2026-10-19,2026-10-28,use (dev tools)
-ui,Iris docs,https://sirmallard.github.io/Iris/,MIT (project),yes,not shown,2026-10-28,use
-ui,Signals (Roblox),https://github.com/Roblox/signals,MIT,yes,2026-10-27,2026-10-28,caution (pre-1.0)
-ui,Charm,https://github.com/littensy/charm,MIT,yes,2026-09-30,2026-10-28,use
-ui,Ripple,https://github.com/littensy/ripple,MIT,yes,2026-03-19,2026-10-28,use
-ui,Synthetic,https://github.com/nightcycle/synthetic,Apache-2.0,yes,2024-08-01,2026-10-28,skip (stale)
-ui,rbx-css,https://github.com/AlroviOfficial/rbx-css,MIT,yes,2026-09-08,2026-10-28,caution
-ui,Flipbook,https://github.com/flipbook-labs/flipbook,MIT,yes,2026-10-04,2026-10-28,use
-ui,Flipbook docs,https://flipbook-labs.github.io/flipbook/,MIT (project),yes,not shown,2026-10-28,use
-ui,Wally index,https://github.com/UpliftGames/wally-index,n/a (registry data),n/a,2026-10-28,2026-10-28,reference
-ui,Knit,https://github.com/Sleitnick/Knit,MIT,yes,2024-07-31,2026-10-28,skip (archived)
-templates,Rojo,https://github.com/rojo-rbx/rojo,MPL-2.0,yes,2026-10-05 (v7.7.1),2026-10-28,use
-templates,Rojo docs v7,https://rojo.space/docs/v7/,MPL-2.0 (project),yes,not shown,2026-10-28,use
-templates,Rokit,https://github.com/rojo-rbx/rokit,MIT,yes,2026-09-27,2026-10-28,use
-templates,Wally,https://wally.run,MPL-2.0,yes,2026-10-12 (repo),2026-10-28,use
-templates,pesde,https://pesde.dev,MIT,yes,2026-10-26 (repo),2026-10-28,caution
-templates,Aftman,https://github.com/LPGhatguy/aftman,MIT,yes,2025-07-09,2026-10-28,skip (unmaintained)
-templates,Foreman,https://github.com/Roblox/foreman,MIT,yes,2026-05-01,2026-10-28,caution (prefer Rokit)
-templates,Selene,https://github.com/Kampfkarren/selene,MPL-2.0,yes,2026-10-01,2026-10-28,use
-templates,StyLua,https://github.com/JohnnyMorganz/StyLua,MPL-2.0,yes,2026-10-11,2026-10-28,use
-templates,luau-lsp,https://github.com/JohnnyMorganz/luau-lsp,MIT,yes,2026-10-28,2026-10-28,use
-templates,Luau language,https://github.com/luau-lang/luau,MIT,yes,2026-10-23,2026-10-28,reference
-templates,roblox-ts,https://github.com/roblox-ts/roblox-ts,MIT,yes,2026-10-01,2026-10-28,caution (second language)
-templates,NevermoreEngine,https://github.com/Quenty/NevermoreEngine,MIT,yes,2026-10-26,2026-10-28,use
-templates,RbxUtil,https://github.com/Sleitnick/RbxUtil,MIT,yes,2026-07-27,2026-10-28,use
-templates,Cmdr,https://github.com/evaera/Cmdr,MIT,yes,2026-10-10,2026-10-28,use
-templates,Roblox Studio MCP server,https://github.com/Roblox/studio-rust-mcp-server,MIT,yes,2026-04-03,2026-10-28,caution (review changes)
-templates,Roblox creator docs source,https://github.com/Roblox/creator-docs,CC-BY-4.0 prose; MIT code,yes,2026-10-27,2026-10-28,use
-templates,Miner's Haven source,https://github.com/berezaa/minershaven,Apache-2.0,yes,2019-09-17,2026-10-28,caution (old patterns)
-templates,GitHub topic: roblox,https://github.com/topics/roblox,n/a,n/a,live listing,2026-10-28,reference
-templates,YouTube: GnomeCode,https://www.youtube.com/@GnomeCode,YouTube ToS,n/a,not visible,2026-10-28,caution (recency unverified)
-templates,YouTube: Suphi Kaner,https://www.youtube.com/@SuphiKaner,YouTube ToS,n/a,not visible,2026-10-28,caution (recency unverified)
-templates,YouTube: BrawlDev,https://www.youtube.com/@BrawlDevRBLX,YouTube ToS,n/a,not visible,2026-10-28,caution (recency unverified)
-maps,Maze World,https://github.com/MayGo/maze-world,MIT,yes,2024-11-25,2026-10-28,caution
-maps,Dungeon guide source (Nyapaw/Roblox),https://github.com/Nyapaw/Roblox,Apache-2.0 (author asks credit in monetized games),yes with credit,2020-04-28,2026-10-28,caution
-maps,EgoMoose dungeon generator,https://github.com/EgoMooseOldProjects/Dungeon-generator,MIT,yes,2016-02-13,2026-10-28,skip (abandoned)
-weather,buildthomas/Rain,https://github.com/buildthomas/Rain,Apache-2.0,yes,2026-09-19,2026-10-28,use
-weather,1ForeverHD/Rain (fork),https://github.com/1ForeverHD/Rain,Apache-2.0,yes,2018-08-03,2026-10-28,skip (stale fork)
-events,ProfileStore,https://github.com/MadStudioRoblox/ProfileStore,Apache-2.0,yes,2025-07-31,2026-10-28,use
-events,ProfileService,https://github.com/MadStudioRoblox/ProfileService,Apache-2.0,yes,2024-10-13,2026-10-28,skip (unsupported)
-events,Lapis,https://github.com/nezuo/lapis,MIT,yes,2025-02-11,2026-10-28,caution
-economy-tokens,Design Tokens Community Group,https://www.designtokens.org,W3C Community Group reports,n/a (spec),2025.10 stable format,2026-10-28,use
-economy-tokens,Style Dictionary site,https://styledictionary.com,Apache-2.0,yes,not shown,2026-10-28,use
-economy-tokens,Style Dictionary formats reference,https://styledictionary.com/reference/hooks/formats/,Apache-2.0,yes,not shown,2026-10-28,use
-economy-tokens,Style Dictionary repo,https://github.com/amzn/style-dictionary,Apache-2.0,yes,2026-10-27,2026-10-28,use
-textures,ambientCG,https://ambientcg.com,CC0 1.0,"yes, no credit",not shown,2026-10-28,use
-textures,ambientCG license,https://docs.ambientcg.com/license/,CC0 1.0,yes,not shown,2026-10-28,use
-textures,Poly Haven,https://polyhaven.com,CC0 (assets); site content reserved,"yes, no credit",not shown,2026-10-28,use
-textures,Poly Haven license,https://polyhaven.com/license,CC0,yes,not shown,2026-10-28,use
-textures,Kenney,https://kenney.nl,CC0,"yes, credit optional",not shown,2026-10-28,use
-textures,Kenney support/license,https://kenney.nl/support,CC0,yes,not shown,2026-10-28,use
-textures,Quaternius,https://quaternius.com,Quaternius Asset License v1.0,yes in games; no redistribution of assets,license updated 2026-08-28,2026-10-28,use
-textures,Quaternius license,https://quaternius.com/license.html,Quaternius Asset License v1.0,yes in games; no redistribution,2026-08-28,2026-10-28,use
-textures,Poly Pizza,https://poly.pizza,unverified (per model),unverified,blocked (HTTP 403),2026-10-28,unverified
-textures,OpenGameArt,https://opengameart.org,per asset (CC0/CC-BY/CC-BY-SA/OGA-BY/GPL),varies,not shown,2026-10-28,caution
-textures,OpenGameArt FAQ,https://opengameart.org/content/faq,n/a,n/a,not shown,2026-10-28,use
-textures,itch.io game assets,https://itch.io/game-assets,per creator,varies,live listing,2026-10-28,caution
-textures,game-icons.net,https://game-icons.net,CC BY 3.0 (some CC0),yes with credit,repo 2026-04-23,2026-10-28,use
-textures,game-icons.net about,https://game-icons.net/about.html,CC BY 3.0,yes with credit,repo 2026-04-23,2026-10-28,use
-textures,Lucide,https://lucide.dev,ISC (Feather-derived icons MIT),"yes, keep notice",repo 2026-10-27,2026-10-28,use
-textures,Lucide license,https://lucide.dev/license,ISC / MIT,"yes, keep notice",repo 2026-10-27,2026-10-28,use
-textures,Phosphor Icons,https://phosphoricons.com,MIT,"yes, keep notice",repo 2026-08-25,2026-10-28,use
-textures,Phosphor homepage repo,https://github.com/phosphor-icons/homepage,MIT,yes,2026-08-25,2026-10-28,use
-textures,Google Fonts,https://fonts.google.com,per family: OFL / Apache-2.0 / UFL,license yes; Roblox cannot import fonts,client-rendered,2026-10-28,reference only
-textures,Google Fonts repo,https://github.com/google/fonts,per family: OFL / Apache-2.0 / UFL,license yes; Roblox cannot import fonts,2026-10-27,2026-10-28,reference only
-ui,Interface In Game,https://interfaceingame.com,screenshots of commercial games (reference only),no (reference),games added 2026-10-13,2026-10-28,use as reference
-ui,Game UI Database,https://www.gameuidatabase.com,unverified,no (reference),blocked (HTTP 403),2026-10-28,unverified
-ui,Figma Community,https://www.figma.com/community,per file,varies; check each file,blocked (HTTP 403),2026-10-28,unverified
+id,topic,name,url,license,commercial,updated,checked,verdict,note
+S1,ui,UI docs index,https://create.roblox.com/docs/ui,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S2,ui,UI position and size,https://create.roblox.com/docs/ui/position-and-size,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S3,ui,UI list and flex layouts,https://create.roblox.com/docs/ui/list-flex-layouts,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S4,ui,UI grid and table layouts,https://create.roblox.com/docs/ui/grid-table-layouts,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S5,ui,UI size modifiers,https://create.roblox.com/docs/ui/size-modifiers,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S6,ui,UI on-screen containers,https://create.roblox.com/docs/ui/on-screen-containers,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S7,ui,UI styling,https://create.roblox.com/docs/ui/styling,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S8,ui,UI Style Editor,https://create.roblox.com/docs/ui/styling/editor,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S9,ui,UI styling CSS comparisons,https://create.roblox.com/docs/ui/styling/css-comparisons,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S10,ui,UI animation,https://create.roblox.com/docs/ui/animation,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S11,ui,Proximity prompts,https://create.roblox.com/docs/ui/proximity-prompts,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S12,ui,Viewport frames,https://create.roblox.com/docs/ui/viewport-frames,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S13,ui,9-slice,https://create.roblox.com/docs/ui/9-slice,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S14,ui,Scrolling frames,https://create.roblox.com/docs/ui/scrolling-frames,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S15,ui,UI drag detectors,https://create.roblox.com/docs/ui/ui-drag-detectors,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S16,ui,Rich text,https://create.roblox.com/docs/ui/rich-text,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S17,ui,Text filtering,https://create.roblox.com/docs/ui/text-filtering,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S18,ui,UI/UX design guide,https://create.roblox.com/docs/production/game-design/ui-ux-design,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S19,ui,UI design curriculum,https://create.roblox.com/docs/tutorials/curriculums/user-interface-design,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S20,ui,Shop (monetization),https://create.roblox.com/docs/production/monetization/shop,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S21,textures,Materials and MaterialService,https://create.roblox.com/docs/parts/materials,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S22,textures,Custom terrain materials,https://create.roblox.com/docs/parts/custom-terrain-materials,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S23,textures,PBR textures / SurfaceAppearance,https://create.roblox.com/docs/art/modeling/surface-appearance,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S24,textures,Texture specifications,https://create.roblox.com/docs/art/modeling/texture-specifications,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S25,textures,Textures and decals,https://create.roblox.com/docs/parts/textures-decals,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S26,textures,Assets overview,https://create.roblox.com/docs/projects/assets,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S27,maps,Terrain,https://create.roblox.com/docs/parts/terrain,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S28,maps,Procedural models,https://create.roblox.com/docs/parts/procedural-models,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S29,maps,Model generation (GenerationService),https://create.roblox.com/docs/parts/model-generation,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S30,maps,Environmental art curriculum,https://create.roblox.com/docs/tutorials/curriculums/environmental-art,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S31,maps,Streaming,https://create.roblox.com/docs/workspace/streaming,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S32,templates,Official templates,https://create.roblox.com/docs/resources/templates,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S33,templates,Packages,https://create.roblox.com/docs/projects/assets/packages,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S34,templates,Creator Store policy,https://create.roblox.com/docs/production/creator-store,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S35,weather,Environment docs index,https://create.roblox.com/docs/environment,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S36,weather,Lighting,https://create.roblox.com/docs/environment/lighting,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S37,weather,Atmosphere,https://create.roblox.com/docs/environment/atmosphere,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S38,weather,Clouds,https://create.roblox.com/docs/environment/clouds,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S39,weather,Skybox,https://create.roblox.com/docs/environment/skybox,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S40,weather,Global wind,https://create.roblox.com/docs/environment/global-wind,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S41,weather,Post-processing effects,https://create.roblox.com/docs/environment/post-processing-effects,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S42,events,Experience configs (ConfigService),https://create.roblox.com/docs/production/configs,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S43,events,Experiments,https://create.roblox.com/docs/production/experiments,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S44,events,Experience events and updates,https://create.roblox.com/docs/production/promotion/experience-events,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S45,events,Experience notifications,https://create.roblox.com/docs/production/promotion/experience-notifications,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S46,events,Event Sequencer module,https://create.roblox.com/docs/resources/modules/event-sequencer,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S47,events,Feature packages,https://create.roblox.com/docs/resources/feature-packages,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S48,events,LiveOps essentials,https://create.roblox.com/docs/production/game-design/liveops-essentials,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S49,events,LiveOps planning,https://create.roblox.com/docs/production/game-design/liveops-planning,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S50,events,Cross-server messaging,https://create.roblox.com/docs/cloud-services/cross-server-messaging,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S51,events,Data stores,https://create.roblox.com/docs/cloud-services/data-stores,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S52,events,Data store best practices,https://create.roblox.com/docs/cloud-services/data-stores/best-practices,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S53,events,Data store limits,https://create.roblox.com/docs/cloud-services/data-stores/error-codes-and-limits,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S54,events,Data stores vs memory stores,https://create.roblox.com/docs/cloud-services/data-stores-vs-memory-stores,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S55,events,Memory stores,https://create.roblox.com/docs/cloud-services/memory-stores,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S56,economy-tokens,Player data and purchasing systems,https://create.roblox.com/docs/cloud-services/data-stores/player-data-purchasing,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S57,economy-tokens,Developer products,https://create.roblox.com/docs/production/monetization/developer-products,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S58,economy-tokens,Passes,https://create.roblox.com/docs/production/monetization/passes,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S59,economy-tokens,Subscriptions,https://create.roblox.com/docs/production/monetization/subscriptions,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S60,economy-tokens,Robux transfers,https://create.roblox.com/docs/production/monetization/robux-transfers,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S61,economy-tokens,Managed pricing,https://create.roblox.com/docs/production/monetization/managed-pricing,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S62,economy-tokens,Price optimization,https://create.roblox.com/docs/production/monetization/price-optimization,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S63,economy-tokens,Paid random items policy,https://create.roblox.com/docs/production/monetization/paid-random-items,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S64,economy-tokens,Balance virtual economies,https://create.roblox.com/docs/production/game-design/balance-virtual-economies,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S65,economy-tokens,Monetization foundations,https://create.roblox.com/docs/production/game-design/monetization-foundations,Roblox docs (CC-BY-4.0 text; MIT code samples),n/a (documentation),2026-10-27 (docs repo commit),2026-10-28,use,
+S66,textures,Builder font license,https://create.roblox.com/docs/resources/builder-font-license,Roblox Builder font license (Roblox UGC only),"yes, on Roblox only",2026-10-27 (docs repo commit),2026-10-28,use,
+S67,textures,Creator Store,https://create.roblox.com/store,Roblox Terms of Use; no per-asset open license,yes inside Roblox; vet scripts,client-rendered; not visible,2026-10-28,caution,
+S68,ui,UI Styling full release announcement,https://devforum.roblox.com/t/full-release-ui-styling-is-officially-released/4275082,DevForum post (Roblox ToS); code license only if stated,n/a,2026-01-20,2026-10-28,use,
+S69,ui,How To: React + Roblox (2024 guide),https://devforum.roblox.com/t/how-to-react-roblox/2964543,DevForum post (Roblox ToS); code license only if stated,n/a,2024-05-10,2026-10-28,caution,caution (recommends stale jsdotlua package)
+S70,ui,Evolving Luau OSS announcement,https://devforum.roblox.com/t/evolving-luau-oss-community-contributions-more/4566806,DevForum post (Roblox ToS); code license only if stated,n/a,2026-04-09,2026-10-28,use,
+S71,textures,Custom terrain materials full launch,https://devforum.roblox.com/t/full-launch-publish-games-with-custom-terrain-materials-and-performance-improvements/4950620,DevForum post (Roblox ToS); code license only if stated,n/a,2026-10-22 (updated 2026-10-27),2026-10-28,use,
+S72,maps,"Terrain updates announcement (scattering, splines, decals)",https://devforum.roblox.com/t/terrain-updates-object-scattering-path-splines-projected-terrain-decals-and-more/4865617,DevForum post (Roblox ToS); code license only if stated,n/a,2026-09-11,2026-10-28,use,use (features not released)
+S73,maps,Dungeon Generation guide,https://devforum.roblox.com/t/dungeon-generation-a-procedural-generation-guide/342413,DevForum post (Roblox ToS); code license only if stated,n/a,2019-09-01,2026-10-28,caution,caution (old; good explanation)
+S74,weather,Rain Module + Plugin thread,https://devforum.roblox.com/t/rain-module-plugin/157190,DevForum post (Roblox ToS); code license only if stated,n/a,2018-08-03 (repo active 2026-09-19),2026-10-28,use,
+S75,weather,Realistic Rain,https://devforum.roblox.com/t/feedback-open-source-realistic-rain-v112/1078997,DevForum post (Roblox ToS); code license only if stated,n/a,2021-04-16,2026-10-28,caution,
+S76,weather,SimpleWeather V2.0,https://devforum.roblox.com/t/simpleweather-v20-a-easy-to-use-weather-module/3626171,DevForum post (Roblox ToS); code license only if stated,n/a,2025-06-03,2026-10-28,caution,caution (no license; Creator Store model)
+S77,weather,HYPER Weather,https://devforum.roblox.com/t/hyper-realistic-weather-for-roblox-rain-snow-storms-and-more/3158864,DevForum post (Roblox ToS); code license only if stated,n/a,2024-09-15,2026-10-28,caution,caution (no license stated)
+S78,weather,How To: Custom Day-Night System,https://devforum.roblox.com/t/how-to-custom-day-night-system/712476,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,caution,
+S79,events,Configs and experiments launch,https://devforum.roblox.com/t/live-now-use-configs-and-experiments-to-grow-your-game-faster/4051385,DevForum post (Roblox ToS); code license only if stated,n/a,2025-11-06,2026-10-28,use,
+S80,events,Open Cloud Configs API announcement,https://devforum.roblox.com/t/programmatically-update-configs-the-open-cloud-configs-api/4509549,DevForum post (Roblox ToS); code license only if stated,n/a,not checked (2026),2026-10-28,use,
+S81,events,ConfigService list-keys feature request,https://devforum.roblox.com/t/configservice-should-support-listing-all-config-keys-in-an-experience/4165920,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,caution,reference
+S82,events,ProfileStore thread,https://devforum.roblox.com/t/profilestore-save-your-player-data-easy-datastore-module/3190543,DevForum post (Roblox ToS); code license only if stated,n/a,2024-10-11,2026-10-28,use,
+S83,events,Session locking explained,https://devforum.roblox.com/t/session-locking-explained-datastore/846799,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,caution,caution (older)
+S84,economy-tokens,Preventing duplication and data loss thread,https://devforum.roblox.com/t/how-do-i-prevent-duplication-of-ingame-itemscurrency-and-dataloss/3848629,DevForum post (Roblox ToS); code license only if stated,n/a,not checked,2026-10-28,caution,reference
+S85,ui,React Luau (official),https://github.com/Roblox/react-luau,MIT,yes,2026-10-13,2026-10-28,use,
+S86,ui,React Luau docs,https://www.react-luau.dev,MIT (project),yes,not shown,2026-10-28,use,
+S87,ui,react-lua (jsdotlua fork),https://github.com/jsdotlua/react-lua,MIT,yes,2024-12-04,2026-10-28,caution,caution (stale)
+S88,ui,Roact (legacy),https://github.com/Roblox/roact,Apache-2.0,yes,2023-12-12,2026-10-28,skip,skip (deprecated)
+S89,ui,Fusion repo,https://github.com/dphfox/Fusion,MIT,yes,2026-02-01,2026-10-28,use,
+S90,ui,Fusion 0.3 docs,https://elttob.uk/Fusion/0.3/,MIT (project),yes,not shown,2026-10-28,use,
+S91,ui,Vide,https://github.com/centau/vide,MIT,yes,2026-10-26,2026-10-28,use,use (pre-1.0)
+S92,ui,Vide docs,https://centau.github.io/vide/,MIT (project),yes,not shown,2026-10-28,use,
+S93,ui,Iris,https://github.com/SirMallard/Iris,MIT,yes,2026-10-19,2026-10-28,use,use (dev tools)
+S94,ui,Iris docs,https://sirmallard.github.io/Iris/,MIT (project),yes,not shown,2026-10-28,use,
+S95,ui,Signals (Roblox),https://github.com/Roblox/signals,MIT,yes,2026-10-27,2026-10-28,caution,caution (pre-1.0)
+S96,ui,Charm,https://github.com/littensy/charm,MIT,yes,2026-09-30,2026-10-28,use,
+S97,ui,Ripple,https://github.com/littensy/ripple,MIT,yes,2026-03-19,2026-10-28,use,
+S98,ui,Synthetic,https://github.com/nightcycle/synthetic,Apache-2.0,yes,2024-08-01,2026-10-28,skip,skip (stale)
+S99,ui,rbx-css,https://github.com/AlroviOfficial/rbx-css,MIT,yes,2026-09-08,2026-10-28,caution,
+S100,ui,Flipbook,https://github.com/flipbook-labs/flipbook,MIT,yes,2026-10-04,2026-10-28,use,
+S101,ui,Flipbook docs,https://flipbook-labs.github.io/flipbook/,MIT (project),yes,not shown,2026-10-28,use,
+S102,ui,Wally index,https://github.com/UpliftGames/wally-index,n/a (registry data),n/a,2026-10-28,2026-10-28,caution,reference
+S103,ui,Knit,https://github.com/Sleitnick/Knit,MIT,yes,2024-07-31,2026-10-28,skip,skip (archived)
+S104,templates,Rojo,https://github.com/rojo-rbx/rojo,MPL-2.0,yes,2026-10-05 (v7.7.1),2026-10-28,use,
+S105,templates,Rojo docs v7,https://rojo.space/docs/v7/,MPL-2.0 (project),yes,not shown,2026-10-28,use,
+S106,templates,Rokit,https://github.com/rojo-rbx/rokit,MIT,yes,2026-09-27,2026-10-28,use,
+S107,templates,Wally,https://wally.run,MPL-2.0,yes,2026-10-12 (repo),2026-10-28,use,
+S108,templates,pesde,https://pesde.dev,MIT,yes,2026-10-26 (repo),2026-10-28,caution,
+S109,templates,Aftman,https://github.com/LPGhatguy/aftman,MIT,yes,2025-07-09,2026-10-28,skip,skip (unmaintained)
+S110,templates,Foreman,https://github.com/Roblox/foreman,MIT,yes,2026-05-01,2026-10-28,caution,caution (prefer Rokit)
+S111,templates,Selene,https://github.com/Kampfkarren/selene,MPL-2.0,yes,2026-10-01,2026-10-28,use,
+S112,templates,StyLua,https://github.com/JohnnyMorganz/StyLua,MPL-2.0,yes,2026-10-11,2026-10-28,use,
+S113,templates,luau-lsp,https://github.com/JohnnyMorganz/luau-lsp,MIT,yes,2026-10-28,2026-10-28,use,
+S114,templates,Luau language,https://github.com/luau-lang/luau,MIT,yes,2026-10-23,2026-10-28,caution,reference
+S115,templates,roblox-ts,https://github.com/roblox-ts/roblox-ts,MIT,yes,2026-10-01,2026-10-28,caution,caution (second language)
+S116,templates,NevermoreEngine,https://github.com/Quenty/NevermoreEngine,MIT,yes,2026-10-26,2026-10-28,use,
+S117,templates,RbxUtil,https://github.com/Sleitnick/RbxUtil,MIT,yes,2026-07-27,2026-10-28,use,
+S118,templates,Cmdr,https://github.com/evaera/Cmdr,MIT,yes,2026-10-10,2026-10-28,use,
+S119,templates,Roblox Studio MCP server,https://github.com/Roblox/studio-rust-mcp-server,MIT,yes,2026-04-03,2026-10-28,caution,caution (review changes)
+S120,templates,Roblox creator docs source,https://github.com/Roblox/creator-docs,CC-BY-4.0 prose; MIT code,yes,2026-10-27,2026-10-28,use,
+S121,templates,Miner's Haven source,https://github.com/berezaa/minershaven,Apache-2.0,yes,2019-09-17,2026-10-28,caution,caution (old patterns)
+S122,templates,GitHub topic: roblox,https://github.com/topics/roblox,n/a,n/a,live listing,2026-10-28,caution,reference
+S123,templates,YouTube: GnomeCode,https://www.youtube.com/@GnomeCode,YouTube ToS,n/a,not visible,2026-10-28,caution,caution (recency unverified)
+S124,templates,YouTube: Suphi Kaner,https://www.youtube.com/@SuphiKaner,YouTube ToS,n/a,not visible,2026-10-28,caution,caution (recency unverified)
+S125,templates,YouTube: BrawlDev,https://www.youtube.com/@BrawlDevRBLX,YouTube ToS,n/a,not visible,2026-10-28,caution,caution (recency unverified)
+S126,maps,Maze World,https://github.com/MayGo/maze-world,MIT,yes,2024-11-25,2026-10-28,caution,
+S127,maps,Dungeon guide source (Nyapaw/Roblox),https://github.com/Nyapaw/Roblox,Apache-2.0 (author asks credit in monetized games),yes with credit,2020-04-28,2026-10-28,caution,
+S128,maps,EgoMoose dungeon generator,https://github.com/EgoMooseOldProjects/Dungeon-generator,MIT,yes,2016-02-13,2026-10-28,skip,skip (abandoned)
+S129,weather,buildthomas/Rain,https://github.com/buildthomas/Rain,Apache-2.0,yes,2026-09-19,2026-10-28,use,
+S130,weather,1ForeverHD/Rain (fork),https://github.com/1ForeverHD/Rain,Apache-2.0,yes,2018-08-03,2026-10-28,skip,skip (stale fork)
+S131,events,ProfileStore,https://github.com/MadStudioRoblox/ProfileStore,Apache-2.0,yes,2025-07-31,2026-10-28,use,
+S132,events,ProfileService,https://github.com/MadStudioRoblox/ProfileService,Apache-2.0,yes,2024-10-13,2026-10-28,skip,skip (unsupported)
+S133,events,Lapis,https://github.com/nezuo/lapis,MIT,yes,2025-02-11,2026-10-28,caution,
+S134,economy-tokens,Design Tokens Community Group,https://www.designtokens.org,W3C Community Group reports,n/a (spec),2025.10 stable format,2026-10-28,use,
+S135,economy-tokens,Style Dictionary site,https://styledictionary.com,Apache-2.0,yes,not shown,2026-10-28,use,
+S136,economy-tokens,Style Dictionary formats reference,https://styledictionary.com/reference/hooks/formats/,Apache-2.0,yes,not shown,2026-10-28,use,
+S137,economy-tokens,Style Dictionary repo,https://github.com/amzn/style-dictionary,Apache-2.0,yes,2026-10-27,2026-10-28,use,
+S138,textures,ambientCG,https://ambientcg.com,CC0 1.0,"yes, no credit",not shown,2026-10-28,use,
+S139,textures,ambientCG license,https://docs.ambientcg.com/license/,CC0 1.0,yes,not shown,2026-10-28,use,
+S140,textures,Poly Haven,https://polyhaven.com,CC0 (assets); site content reserved,"yes, no credit",not shown,2026-10-28,use,
+S141,textures,Poly Haven license,https://polyhaven.com/license,CC0,yes,not shown,2026-10-28,use,
+S142,textures,Kenney,https://kenney.nl,CC0,"yes, credit optional",not shown,2026-10-28,use,
+S143,textures,Kenney support/license,https://kenney.nl/support,CC0,yes,not shown,2026-10-28,use,
+S144,textures,Quaternius,https://quaternius.com,Quaternius Asset License v1.0,yes in games; no redistribution of assets,license updated 2026-08-28,2026-10-28,use,
+S145,textures,Quaternius license,https://quaternius.com/license.html,Quaternius Asset License v1.0,yes in games; no redistribution,2026-08-28,2026-10-28,use,
+S146,textures,Poly Pizza,https://poly.pizza,unverified (per model),unverified,blocked (HTTP 403),2026-10-28,caution,unverified
+S147,textures,OpenGameArt,https://opengameart.org,per asset (CC0/CC-BY/CC-BY-SA/OGA-BY/GPL),varies,not shown,2026-10-28,caution,
+S148,textures,OpenGameArt FAQ,https://opengameart.org/content/faq,n/a,n/a,not shown,2026-10-28,use,
+S149,textures,itch.io game assets,https://itch.io/game-assets,per creator,varies,live listing,2026-10-28,caution,
+S150,textures,game-icons.net,https://game-icons.net,CC BY 3.0 (some CC0),yes with credit,repo 2026-04-23,2026-10-28,use,
+S151,textures,game-icons.net about,https://game-icons.net/about.html,CC BY 3.0,yes with credit,repo 2026-04-23,2026-10-28,use,
+S152,textures,Lucide,https://lucide.dev,ISC (Feather-derived icons MIT),"yes, keep notice",repo 2026-10-27,2026-10-28,use,
+S153,textures,Lucide license,https://lucide.dev/license,ISC / MIT,"yes, keep notice",repo 2026-10-27,2026-10-28,use,
+S154,textures,Phosphor Icons,https://phosphoricons.com,MIT,"yes, keep notice",repo 2026-08-25,2026-10-28,use,
+S155,textures,Phosphor homepage repo,https://github.com/phosphor-icons/homepage,MIT,yes,2026-08-25,2026-10-28,use,
+S156,textures,Google Fonts,https://fonts.google.com,per family: OFL / Apache-2.0 / UFL,license yes; Roblox cannot import fonts,client-rendered,2026-10-28,caution,reference only
+S157,textures,Google Fonts repo,https://github.com/google/fonts,per family: OFL / Apache-2.0 / UFL,license yes; Roblox cannot import fonts,2026-10-27,2026-10-28,caution,reference only
+S158,ui,Interface In Game,https://interfaceingame.com,screenshots of commercial games (reference only),no (reference),games added 2026-10-13,2026-10-28,caution,use as reference
+S159,ui,Game UI Database,https://www.gameuidatabase.com,unverified,no (reference),blocked (HTTP 403),2026-10-28,caution,unverified
+S160,ui,Figma Community,https://www.figma.com/community,per file,varies; check each file,blocked (HTTP 403),2026-10-28,caution,unverified
+S161,data-persistence,Versioning listing caching,https://create.roblox.com/docs/cloud-services/data-stores/versioning-listing-and-caching,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"caching, versions, serialization"
+S162,data-persistence,Data Stores Manager,https://create.roblox.com/docs/cloud-services/data-stores/data-stores-manager,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S163,data-persistence,Data store observability,https://create.roblox.com/docs/cloud-services/data-stores/observability,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S164,data-persistence,Right to be forgotten,https://create.roblox.com/docs/cloud-services/data-stores/right-to-be-forgotten,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,automated RTBF templates
+S165,data-persistence,GlobalDataStore API,https://create.roblox.com/docs/reference/engine/classes/GlobalDataStore,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,OnUpdate deprecated
+S166,data-persistence,DataModel API (BindToClose),https://create.roblox.com/docs/reference/engine/classes/DataModel,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,BindToClose 30 s limit
+S167,data-persistence,DocumentService,https://github.com/anthony0br/DocumentService,MIT,yes,2026-09-07,2026-10-28,use,"typed, migrations, Result errors; v2 beta tag"
+S168,data-persistence,DocumentService docs,https://anthony0br.github.io/DocumentService/docs/intro,MIT,yes,not shown,2026-10-28,use,
+S169,data-persistence,Suphi's DataStore Module,https://devforum.roblox.com/t/suphis-datastore-module/2425597,permissive grant in post; no repo,yes,2023-06-19 (v1.1 noted),2026-10-28,caution,official copy loaded by asset id
+S170,data-persistence,DataStore2 (Kampfkarren),https://github.com/Kampfkarren/Roblox,custom license,unclear,2023-03-17,2026-10-28,skip,Roblox docs call it legacy
+S171,data-persistence,Data Stores Batch Processor CLI,https://github.com/Roblox/data-stores-batch-processor-cli,MIT,yes,2026-10-01,2026-10-28,use,Roblox tool for bulk data jobs
