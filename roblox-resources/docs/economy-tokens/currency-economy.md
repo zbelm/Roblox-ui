@@ -1,82 +1,47 @@
+---
+topic: economy-tokens
+summary: Robux product types and APIs, receipt handling with ProcessReceipt or BindReceiptHandler, server-authoritative currency, and earn/sink balancing
+keywords: developer product, PromptProductPurchase, pass, PromptGamePassPurchase, UserOwnsGamePassAsync, subscription, PromptRobuxTransferAsync, GetProductInfoAsync, ProcessReceipt, ProductPurchaseDecision, BindReceiptHandler, ReceiptType, ReceiptDecision, PurchaseId, idempotent, ledger, rate limit, leaderstats, sources, sinks, expected value, managed pricing, paid random items
+verified: 2026-10-28
+---
 # In-game currency and Robux products
-
-Last verified: 2026-10-28
-
-Back to [README.md](README.md).
-
-## Products and APIs
-
-| Thing | What it is | Key API |
-|---|---|---|
-| Developer product | Repeatable Robux purchase (currency pack, revive, boost) | `MarketplaceService:PromptProductPurchase(player, productId)`; grant in a receipt handler |
-| Pass | One-time Robux purchase (VIP, 2x coins) | `PromptGamePassPurchase`, check with `UserOwnsGamePassAsync` |
-| Subscription | Recurring purchase | `PromptSubscriptionPurchase`, `GetUserSubscriptionStatusAsync` |
-| Robux transfer | Player-to-player Robux transfer prompted from your game | `PromptRobuxTransferAsync`; receipts via `BindReceiptHandler` with `RobuxTransferSender` / `RobuxTransferReceiver` |
-| Product info for UI | Name, price, icon | `GetProductInfoAsync` (the non-Async `GetProductInfo` is deprecated) |
-
-Docs: https://create.roblox.com/docs/production/monetization/developer-products,
-https://create.roblox.com/docs/production/monetization/passes,
-https://create.roblox.com/docs/production/monetization/subscriptions,
-https://create.roblox.com/docs/production/monetization/robux-transfers
-
-## Receipt handling: two APIs
-
-**`MarketplaceService.ProcessReceipt`** (callback, set once in one server Script).
-Receives `receiptInfo` (`PurchaseId`, `PlayerId`, `ProductId`, `CurrencySpent`,
-`PlaceIdWherePurchased`, ...). Return `Enum.ProductPurchaseDecision.PurchaseGranted`
-after granting and saving, or `NotProcessedYet` to have Roblox retry on the
-player's next purchase or rejoin. No time-based retries, no timeout, and calls for
-multiple pending purchases arrive in no particular order.
-
-**`MarketplaceService:BindReceiptHandler(receiptType, handler, filter?)`** (newer).
-Registers a handler per `Enum.ReceiptType`; for developer products, pass a
-`filter` array of product ids to route products to dedicated handlers, or omit it
-for a catch-all. Return `Enum.ReceiptDecision.Processed` or `NotProcessedYet`.
-Returns an `RBXScriptConnection`. Bound handlers take precedence; unmatched
-developer-product receipts fall through to `ProcessReceipt`, so you can migrate
-one product at a time. Registering a second handler for the same type and
-product (or a second catch-all) throws.
-
-Both: the player must be in a server for the handler to run, and the same receipt
-can be handled on two servers at once if the player hops mid-grant. That is why
-the grant must be recorded with the `PurchaseId` in session-locked player data.
-
-Snippet: [../../snippets/economy-receipt-handler.luau](../../snippets/economy-receipt-handler.luau).
-
-## Server-authoritative currency
-
-1. Balances live only in server memory and saved data; replicate a read-only copy (attribute or leaderstats) for UI.
-2. Prices and rewards live in a server module or configs, never in a client argument.
-3. Every mutation goes through one module (award/spend) that checks integers, non-negative results, caps, and writes an audit entry for large changes.
-4. Remotes: validate argument types (`typeof`), ranges, ownership, distance or cooldown where relevant; rate-limit per player; ignore (do not error on) bad input.
-5. Earn events (kills, pickups, quest completions) are detected on the server, not reported by the client.
-6. Session locking on player data prevents dupes across servers; ProfileStore does this ([../events/data-services.md](../events/data-services.md)).
-
-Snippet: [../../snippets/economy-currency-ledger.luau](../../snippets/economy-currency-ledger.luau).
-
-## Earn / sink balancing
-
-- List every source and sink with its rate per player-hour. Target a slightly positive net so players feel progress, with sinks that scale (upgrade costs that grow, consumables, cosmetics).
-- Use expected value for random rewards: sum of (value x probability). Roblox's guide includes an EV spreadsheet example.
-- Give events their own currency and event shop so event inflation does not leak into the main economy (Roblox's recommended "safest solution").
-- Robux packs: price per coin should improve with pack size, but not so much that the smallest pack feels like a trap.
-- Tune numbers through configs so you can adjust without a publish; experiments can A/B test prices. Roblox's managed pricing and price optimization tools handle Robux price points and regional pricing: https://create.roblox.com/docs/production/monetization/managed-pricing, https://create.roblox.com/docs/production/monetization/price-optimization
-- Paid random items (loot boxes) have their own Roblox policy and disclosure rules: https://create.roblox.com/docs/production/monetization/paid-random-items
-
-Docs: https://create.roblox.com/docs/production/game-design/balance-virtual-economies,
-https://create.roblox.com/docs/production/game-design/monetization-foundations
-
+## Use this
+- Passes: one-time Robux perks https://create.roblox.com/docs/production/monetization/passes [S58]
+- Robux transfers: player-to-player transfers with `BindReceiptHandler` receipts https://create.roblox.com/docs/production/monetization/robux-transfers [S60]
+- Monetization foundations: designing what to sell https://create.roblox.com/docs/production/game-design/monetization-foundations [S65]
+- Snippet: `snippets/economy-receipt-handler.luau` (idempotent grants by `PurchaseId`)
+- Snippet: `snippets/economy-currency-ledger.luau` (one server module for every coin change)
+## Concepts
+- Products and APIs:
+  - Developer product: repeatable (currency pack, revive, boost); `MarketplaceService:PromptProductPurchase(player, productId)`, grant in a receipt handler [S57].
+  - Pass: one-time (VIP, 2x coins); `PromptGamePassPurchase`, check `UserOwnsGamePassAsync` [S58].
+  - Subscription: recurring; `PromptSubscriptionPurchase`, `GetUserSubscriptionStatusAsync` [S59].
+  - Robux transfer: `PromptRobuxTransferAsync`; receipts via `BindReceiptHandler` with `RobuxTransferSender`/`RobuxTransferReceiver` [S60].
+  - Product info for UI: `GetProductInfoAsync` [S57].
+- `MarketplaceService.ProcessReceipt`: one callback in one server Script; `receiptInfo` has `PurchaseId`, `PlayerId`, `ProductId`, `CurrencySpent`, `PlaceIdWherePurchased`; return `Enum.ProductPurchaseDecision.PurchaseGranted` after granting and saving, or `NotProcessedYet` to retry on next purchase or rejoin. No time-based retries, no timeout, pending purchases arrive in no set order [S57].
+- `MarketplaceService:BindReceiptHandler(receiptType, handler, filter?)`: per `Enum.ReceiptType`; `filter` of product ids routes products, omit for catch-all; returns `Enum.ReceiptDecision.Processed` or `NotProcessedYet`; returns an `RBXScriptConnection`; takes precedence, unmatched receipts fall through to `ProcessReceipt` so you can migrate one product at a time; a duplicate handler for the same type and product (or second catch-all) throws [S57][S60].
+- Both: the player must be in a server, and one receipt can run on two servers if the player hops mid-grant; record `PurchaseId` in session-locked data [S57].
+- Server-authoritative currency [S56][S84]:
+  - Balances live in server memory and saved data; replicate a read-only copy (attribute or leaderstats).
+  - Prices and rewards live in a server module or configs, never client arguments.
+  - One award/spend module checks integers, non-negative results, caps, and audits large changes.
+  - Remotes: validate `typeof`, ranges, ownership, distance or cooldown; rate-limit per player; ignore bad input.
+  - Detect earn events (kills, pickups, quests) on the server.
+  - Session locking prevents cross-server dupes (see events/data-services.md).
+- Balancing [S64]:
+  - List every source and sink with a per-player-hour rate; aim for slightly positive net with scaling sinks.
+  - Expected value for random rewards: sum of value x probability; Roblox's guide includes an EV spreadsheet.
+  - Event-specific currency and shop keep event inflation out of the main economy (Roblox's "safest solution").
+  - Robux packs: better price per coin with size, without making the smallest pack a trap.
+  - Tune through configs; A/B test prices with experiments; managed pricing and price optimization handle Robux price points and regional pricing [S61][S62].
+- Paid random items have their own policy and disclosure rules [S63].
 ## Gotchas
-
-- Auto-acknowledge trap: no receipt callback means receipts are acknowledged automatically and lost.
-- A handler that errors or yields forever leaves the purchase unresolved; always return a decision.
-- `ProcessReceipt` might be recorded as failed on Roblox's side even after you return `PurchaseGranted`, so it may be delivered again; your `PurchaseId` check makes that harmless.
-- Keep the stored `PurchaseId` history bounded (for example the last 100) to keep player data small.
-- Exploiters can fire your shop remote thousands of times per second. Rate-limit before any DataStore or MemoryStore call.
-- Do not trust `leaderstats` values as storage; they are a display copy.
-
+- No receipt callback means receipts are auto-acknowledged and lost [S57].
+- A handler that errors or yields forever leaves the purchase unresolved; always return a decision [S57].
+- `ProcessReceipt` may be recorded as failed even after `PurchaseGranted` and be redelivered; the `PurchaseId` check makes it harmless [S57].
+- Keep stored `PurchaseId` history bounded (for example last 100).
+- Rate-limit shop remotes before any DataStore or MemoryStore call.
+- `leaderstats` are a display copy, not storage.
+- The non-Async `GetProductInfo` is deprecated.
 ## Sources
-
-All URLs above, plus:
-- https://create.roblox.com/docs/cloud-services/data-stores/player-data-purchasing
-- https://devforum.roblox.com/t/how-do-i-prevent-duplication-of-ingame-itemscurrency-and-dataloss/3848629
+S56, S57, S58, S59, S60, S61, S62, S63, S64, S65, S84

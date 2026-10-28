@@ -1,68 +1,46 @@
+---
+topic: economy-tokens
+summary: Suggested UI design token scales and two ways to apply them in Luau (StyleSheets or a typed module), plus a Figma/DTCG pipeline
+keywords: design tokens, spacing, radius, text size, color, font, motion, StyleSheet, StyleDerive, StyleRule, StyleLink, SetAttribute, SetProperties, Style Editor, theme, typed Luau module, DTCG, Style Dictionary, registerFormat, rbx-css, Figma
+verified: 2026-10-28
+---
 # UI design tokens in Luau
-
-Last verified: 2026-10-28
-
-Back to [README.md](README.md). Linked from [../ui/README.md](../ui/README.md).
-
-## Suggested scales
-
-These are starting values, not a standard. Keep the number of steps small.
-
-| Group | Tokens | Values |
-|---|---|---|
-| Spacing (Offset px, 4 px grid) | xs, sm, md, lg, xl | 4, 8, 12, 16, 24 |
-| Radius (`UDim`) | sm, md, lg, pill | 4 px, 8 px, 16 px, Scale 0.5 |
-| Text size | caption, body, title, display | 14, 18, 24, 36 |
-| Color (semantic) | surface, surfaceRaised, textPrimary, textMuted, accent, danger, success | one value per theme |
-| Font | body, heading | Builder Sans regular and bold (`Font.fromEnum`) |
-| Motion | fast, normal, slow | 0.12 s, 0.2 s, 0.35 s; Quad/Quint Out |
-
-Pixel values pair with a single root `UIScale` (see [../ui/layout-and-scaling.md](../ui/layout-and-scaling.md)), so tokens stay in "design pixels".
-
-## Option A: native StyleSheets (recommended for most UI)
-
-- A **token sheet** is a `StyleSheet` whose attributes are the primitives (`tokens:SetAttribute("Amber", Color3.fromHex("FFB547"))`).
-- A **theme sheet** derives the token sheet with a `StyleDerive` and defines semantic names that point at primitives with `$` (`theme:SetAttribute("Accent", "$Amber")`).
-- A **design sheet** derives the active theme and holds `StyleRule`s; a `StyleLink` attaches it to the `ScreenGui`.
-- Rules reference tokens as strings: `rule:SetProperties({ BackgroundColor3 = "$Accent" })`.
-- Switching theme = pointing the design sheet's `StyleDerive.StyleSheet` at another theme.
-- Themes must define the same token names (the docs call this out explicitly).
-- Studio's Style Editor (UI tab) edits the same objects visually.
-
-Snippet: [../../snippets/ui-stylesheet-theme.luau](../../snippets/ui-stylesheet-theme.luau).
-Docs: https://create.roblox.com/docs/ui/styling, https://create.roblox.com/docs/ui/styling/editor, https://create.roblox.com/docs/ui/styling/css-comparisons
-
-## Option B: typed Luau module
-
-- A frozen table per group (`color`, `space`, `radius`, `textSize`, `font`) with string-literal key types so typos fail type checking under `--!strict`.
-- Small helpers (`pad`, `round`, `text`) apply tokens so components never hard-code values.
-- Works the same in React Luau, Fusion, or plain instance code.
-- Theme switching needs your own state (a Fusion `Value`, a React context), unlike Option A.
-
-Snippet: [../../snippets/ui-design-tokens.luau](../../snippets/ui-design-tokens.luau).
-
-## Getting tokens out of Figma or a design tool
-
-1. Export tokens in the DTCG format (https://www.designtokens.org; first stable version 2025.10 announced 2025-10-28).
-2. Transform with Style Dictionary (https://styledictionary.com, repo https://github.com/amzn/style-dictionary, Apache-2.0, active). It has no built-in Lua/Luau format; register one with `StyleDictionary.registerFormat({ name, format })` (https://styledictionary.com/reference/hooks/formats/) that emits either a Luau module (Option B) or a script that sets StyleSheet attributes (Option A).
-3. Commit the generated Luau file and the source JSON; regenerate in CI.
-
-Community option: rbx-css (https://github.com/AlroviOfficial/rbx-css, MIT) compiles CSS custom properties into Roblox StyleSheets. Small project; use with caution.
-
+## Use this
+- Style Editor: edit token sheets, themes, rules visually https://create.roblox.com/docs/ui/styling/editor [S8]
+- Styling CSS comparisons: selectors, queries, transitions mapped from CSS https://create.roblox.com/docs/ui/styling/css-comparisons [S9]
+- Style Dictionary formats: `registerFormat` for a custom Luau output https://styledictionary.com/reference/hooks/formats/ [S136]
+- Style Dictionary repo (Apache-2.0, active) https://github.com/amzn/style-dictionary [S137]
+- Snippets: `snippets/ui-stylesheet-theme.luau`, `snippets/ui-design-tokens.luau`
+## Concepts
+- Suggested starting scales (not a standard; keep steps few):
+  - Spacing (Offset px, 4 px grid): xs 4, sm 8, md 12, lg 16, xl 24.
+  - Radius (`UDim`): sm 4 px, md 8 px, lg 16 px, pill Scale 0.5.
+  - Text size: caption 14, body 18, title 24, display 36.
+  - Color (semantic, one value per theme): surface, surfaceRaised, textPrimary, textMuted, accent, danger, success.
+  - Font: body and heading = Builder Sans regular and bold via `Font.fromEnum`.
+  - Motion: fast 0.12 s, normal 0.2 s, slow 0.35 s; Quad/Quint Out.
+- Pixel tokens pair with one root `UIScale` (see ui/layout-and-scaling.md) so they stay in design pixels.
+- Option A, native StyleSheets (recommended for most UI) [S7][S8]:
+  - Token sheet: `StyleSheet` whose attributes are primitives (`tokens:SetAttribute("Amber", Color3.fromHex("FFB547"))`).
+  - Theme sheet: derives tokens via `StyleDerive`, defines semantic names with `$` (`theme:SetAttribute("Accent", "$Amber")`).
+  - Design sheet: derives the active theme, holds `StyleRule`s; `StyleLink` attaches it to the `ScreenGui`.
+  - Rules: `rule:SetProperties({ BackgroundColor3 = "$Accent" })`.
+  - Switch theme by repointing the design sheet's `StyleDerive.StyleSheet`.
+  - Studio's Style Editor (UI tab) edits the same objects.
+- Option B, typed Luau module:
+  - Frozen table per group (`color`, `space`, `radius`, `textSize`, `font`) with string-literal key types so typos fail `--!strict`.
+  - Helpers (`pad`, `round`, `text`) apply tokens; works in React Luau, Fusion, or plain instances.
+  - Theme switching needs your own state (Fusion `Value`, React context).
+- Figma or design-tool pipeline:
+  - Export DTCG format (first stable version 2025.10, announced 2025-10-28) [S134].
+  - Transform with Style Dictionary; it has no built-in Lua/Luau format, so register one with `StyleDictionary.registerFormat({ name, format })` emitting a Luau module or a script that sets StyleSheet attributes [S135][S136][S137].
+  - Commit the generated Luau and source JSON; regenerate in CI.
+- Community: rbx-css (MIT) compiles CSS custom properties into StyleSheets; small project, caution [S99].
 ## Gotchas
-
-- Do not tokenize everything. One-off layout numbers can stay local.
-- Token names describe purpose (`danger`), not appearance (`red`), so themes can change them.
-- UI Styling cannot yet target two pseudo-instances of the same class on one object (for example two `UIStroke`s) without unique names or tags.
-- Color contrast: check text tokens against surfaces for readability on bright phone screens.
-
+- Themes must define the same token names [S7].
+- Do not tokenize one-off layout numbers.
+- Name tokens by purpose (`danger`), not appearance (`red`).
+- UI Styling cannot target two pseudo-instances of the same class on one object (two `UIStroke`s) without unique names or tags [S68].
+- Check text tokens against surfaces for contrast on bright phone screens.
 ## Sources
-
-- https://create.roblox.com/docs/ui/styling
-- https://create.roblox.com/docs/ui/styling/editor
-- https://create.roblox.com/docs/ui/styling/css-comparisons
-- https://devforum.roblox.com/t/full-release-ui-styling-is-officially-released/4275082
-- https://www.designtokens.org
-- https://styledictionary.com
-- https://github.com/amzn/style-dictionary
-- https://github.com/AlroviOfficial/rbx-css
+S7, S8, S9, S68, S99, S134, S135, S136, S137
