@@ -311,3 +311,13 @@ S309,monetization,Rewarded video ads,https://create.roblox.com/docs/production/p
 S310,monetization,Commerce products,https://create.roblox.com/docs/production/monetization/commerce-products,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,real-world goods; eligibility limits
 S311,monetization,PolicyService API,https://create.roblox.com/docs/reference/engine/classes/PolicyService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,per-user eligibility flags
 S312,monetization,Roblox Community Standards,https://about.roblox.com/community-standards,Roblox policy,n/a,not shown,2026-10-28,use,economy and paid random items sections
+S313,policy-compliance,Content maturity and compliance,https://create.roblox.com/docs/production/promotion/content-maturity,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,labels gate Kids/Select/16+/18+
+S314,policy-compliance,Roblox Kids and Select,https://create.roblox.com/docs/production/publishing/kids-and-select,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,requirements to reach under-16 players
+S315,policy-compliance,Experience guidelines (older page),https://create.roblox.com/docs/production/promotion/experience-guidelines,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,older age-recommendation wording; ambiguous vs maturity page
+S316,policy-compliance,Regional content availability,https://create.roblox.com/docs/production/promotion/regional-content-availability,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S317,policy-compliance,IP guidelines,https://create.roblox.com/docs/production/publishing/ip-guidelines,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,copyright and trademark reporting
+S318,policy-compliance,Chat guidelines,https://create.roblox.com/docs/chat/guidelines,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,all chat via TextChannel
+S319,policy-compliance,Bans API,https://create.roblox.com/docs/production/bans,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Players:BanAsync; required for tool bans
+S320,policy-compliance,Safety for creators,https://create.roblox.com/docs/safety,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,safety tools and analytics
+S321,policy-compliance,Account verification,https://create.roblox.com/docs/production/publishing/account-verification,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,government ID verification
+S322,policy-compliance,Age estimation (age checks),https://about.roblox.com/age-estimation,Roblox policy page,n/a,not shown,2026-10-28,use,age checks unlock chat
