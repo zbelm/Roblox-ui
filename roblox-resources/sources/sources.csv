@@ -257,3 +257,15 @@ S255,audio,Roblox + Monstercat announcement,https://devforum.roblox.com/t/roblox
 S256,audio,Freesound FAQ (licenses),https://freesound.org/help/faq/,"per sound: CC0, CC-BY, CC-BY-NC",CC0/CC-BY yes; NC no,not shown,2026-10-28,caution,check license per sound
 S257,audio,Sonniss GDC Game Audio Bundle,https://sonniss.com/gameaudiogdc,Sonniss royalty-free license,yes; no redistribution as SFX packs,latest listed 2024,2026-10-28,use,no attribution; no AI training
 S258,audio,SoundService API,https://create.roblox.com/docs/reference/engine/classes/SoundService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"AcousticSimulationEnabled: occlusion, diffraction, reverb"
+S259,gameplay-systems,Raycasting,https://create.roblox.com/docs/workspace/raycasting,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"RaycastParams, filtering"
+S260,gameplay-systems,Collisions and collision groups,https://create.roblox.com/docs/workspace/collisions,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"Touched, CollisionGroup"
+S261,gameplay-systems,"WorldRoot API (shapecasts, spatial queries)",https://create.roblox.com/docs/reference/engine/classes/WorldRoot,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"Blockcast, Spherecast, GetPartBoundsInBox"
+S262,gameplay-systems,Detect hits tutorial (laser tag),https://create.roblox.com/docs/tutorials/curriculums/gameplay-scripting/detect-hits,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,client rays plus server validation
+S263,gameplay-systems,Weapons Kit,https://create.roblox.com/docs/resources/weapons-kit,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,older kit; read for structure
+S264,gameplay-systems,Tools,https://create.roblox.com/docs/players/tools,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S265,gameplay-systems,Animation events,https://create.roblox.com/docs/animation/events,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,markers for hit frames
+S266,gameplay-systems,Introducing Shapecasts,https://devforum.roblox.com/t/introducing-shapecasts/2320655,DevForum post,n/a,2023 (not checked),2026-10-28,use,Blockcast/Spherecast release notes
+S267,gameplay-systems,ShapecastHitbox,https://github.com/TeamSwordphin/ShapecastHitbox,MIT,yes,2025-08-12,2026-10-28,caution,successor to RaycastHitbox; README incomplete
+S268,gameplay-systems,Raycast Hitbox 4 thread,https://devforum.roblox.com/t/raycast-hitbox-401-for-all-your-melee-needs/374482,DevForum post,n/a,older; superseded,2026-10-28,caution,legacy melee hitbox module
+S269,gameplay-systems,HitboxClass v2.0,https://devforum.roblox.com/t/hitboxclass-v20-a-powerful-oop-based-hitbox-module/3929512,no license stated,unclear,2025-09-11 (update 2026-10),2026-10-28,caution,now paid; Creator Store only
+S270,gameplay-systems,Humanoid API,https://create.roblox.com/docs/reference/engine/classes/Humanoid,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,TakeDamage; LoadAnimation deprecated
