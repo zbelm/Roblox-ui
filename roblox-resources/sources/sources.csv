@@ -363,3 +363,24 @@ S361,localization-accessibility,GuiService API,https://create.roblox.com/docs/re
 S362,localization-accessibility,WCAG contrast minimum,https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html,W3C document,n/a (reference),not checked,2026-10-28,use,4.5:1 text contrast target
 S363,localization-accessibility,WebAIM contrast checker,https://webaim.org/resources/contrastchecker/,free web tool,n/a,not shown,2026-10-28,use,
 S364,localization-accessibility,Coblis color blindness simulator,https://www.color-blindness.com/coblis-color-blindness-simulator/,free web tool,n/a,not shown,2026-10-28,use,preview screenshots as colorblind
+S365,tooling-testing-delivery,"External tools (Rojo, Rokit, Git)",https://create.roblox.com/docs/projects/external-tools,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Roblox's own Rojo workflow guide
+S366,tooling-testing-delivery,Studio plugins,https://create.roblox.com/docs/studio/plugins,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S367,tooling-testing-delivery,Studio command line,https://create.roblox.com/docs/studio/cli,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"run scripts, API dump"
+S368,tooling-testing-delivery,Version history,https://create.roblox.com/docs/projects/version-history,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,restore published versions
+S369,tooling-testing-delivery,Collaboration (Team Create),https://create.roblox.com/docs/projects/collaboration,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,age-based collaboration rules
+S370,tooling-testing-delivery,Open Cloud overview,https://create.roblox.com/docs/cloud,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"API keys, OAuth"
+S371,tooling-testing-delivery,Place publishing API guide,https://create.roblox.com/docs/cloud/guides/usage-place-publishing,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,some instance types not updated
+S372,tooling-testing-delivery,Luau Execution API (OCALE),https://create.roblox.com/docs/cloud/reference/LuauExecutionSessionTask,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,run Luau in a place from CI
+S373,tooling-testing-delivery,Jest Roblox,https://github.com/Roblox/jest-roblox,MIT,yes,2026-10-02,2026-10-28,use,official Jest port; runs via OCALE
+S374,tooling-testing-delivery,Jest Roblox docs,https://roblox.github.io/jest-roblox/,MIT,yes,not shown,2026-10-28,use,
+S375,tooling-testing-delivery,jest-lua (jsdotlua),https://github.com/jsdotlua/jest-lua,MIT,yes,2024-12-23,2026-10-28,caution,stale community fork
+S376,tooling-testing-delivery,TestEZ,https://github.com/Roblox/testez,Apache-2.0,yes,2023-01-30,2026-10-28,skip,unmaintained; use Jest Roblox
+S377,tooling-testing-delivery,Lune,https://github.com/lune-org/lune,MPL-2.0,yes,2026-10-21,2026-10-28,use,standalone Luau runtime for scripts and tests
+S378,tooling-testing-delivery,Lune docs,https://lune-org.github.io/docs,MPL-2.0,yes,not shown,2026-10-28,use,
+S379,tooling-testing-delivery,run-in-roblox,https://github.com/rojo-rbx/run-in-roblox,custom permissive,yes,2020-07-19,2026-10-28,skip,abandoned
+S380,tooling-testing-delivery,rbxcloud,https://github.com/Sleitnick/rbxcloud,MIT,yes,2025-03-23,2026-10-28,caution,Open Cloud CLI; quieter since 2025
+S381,tooling-testing-delivery,Mantle,https://github.com/blake-mealey/mantle,MIT,yes,2026-05-28,2026-10-28,caution,infra-as-code; some features need cookie
+S382,tooling-testing-delivery,Hoarcekat,https://github.com/Kampfkarren/hoarcekat,MPL-2.0,yes,2025-11-21,2026-10-28,use,UI story previewer plugin
+S383,tooling-testing-delivery,Backdoor in Studio plugin report,https://devforum.roblox.com/t/backdoor-found-in-a-circulating-roblox-studio-plugin/4486846,DevForum post,n/a,2026-03,2026-10-28,use,remote loader hidden in plugin
+S384,tooling-testing-delivery,How to identify malicious plugins,https://devforum.roblox.com/t/how-to-identify-malicious-plugins/1263521,DevForum post,n/a,older,2026-10-28,caution,checklist still valid
+S385,tooling-testing-delivery,Open Cloud place publishing launch,https://devforum.roblox.com/t/open-cloud-publishing-your-places-with-api-keys-is-now-live/1485135,DevForum post,n/a,2021,2026-10-28,caution,old size limits mentioned
