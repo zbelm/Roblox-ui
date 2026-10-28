@@ -243,3 +243,17 @@ S241,debugging,ScriptContext API,https://create.roblox.com/docs/reference/engine
 S242,debugging,Studio MCP server docs,https://create.roblox.com/docs/studio/mcp,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,AI tools read and edit open place
 S243,debugging,MicroProfiler benchmarking tutorial,https://devforum.roblox.com/t/improving-game-performance-benchmarking-microprofiler-developer-stats-and-developer-console/1002074,DevForum post,n/a,not checked,2026-10-28,caution,older but clear walkthrough
 S244,debugging,MicroProfiler and Assistant announcement,https://devforum.roblox.com/t/automated-performance-profiling-with-microprofiler-and-assistant/4704417,DevForum post,n/a,not checked (2026),2026-10-28,caution,AI analysis of dumps; verify findings
+S245,audio,Audio overview,https://create.roblox.com/docs/audio,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,modular audio API is current
+S246,audio,"Audio assets (find, import, limits)",https://create.roblox.com/docs/audio/assets,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"20 MB, 7 min, monthly upload caps"
+S247,audio,Audio objects,https://create.roblox.com/docs/audio/objects,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"AudioPlayer, Emitter, Listener, Wire"
+S248,audio,Audio effects,https://create.roblox.com/docs/audio/effects,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S249,audio,Legacy Sound objects,https://create.roblox.com/docs/sound/objects,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,docs label Sound as legacy
+S250,audio,Legacy SoundGroups,https://create.roblox.com/docs/sound/groups,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,legacy mixer
+S251,audio,Asset privacy,https://create.roblox.com/docs/projects/assets/privacy,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,audio permissions and sharing
+S252,audio,Sound API,https://create.roblox.com/docs/reference/engine/classes/Sound,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,"MaxDistance, Pitch, EmitterSize deprecated"
+S253,audio,Audio Upload License Agreement,https://en.help.roblox.com/hc/en-us/articles/23359485439124-Audio-Upload-License-Agreement,Roblox terms,n/a,unknown,2026-10-28,caution,blocked (HTTP 403) from research session
+S254,audio,New music announcement (DistroKid),https://devforum.roblox.com/t/amplify-your-experiences-with-new-music/3164792,DevForum post,n/a,2024-09-19 (updated 2025-02-13),2026-10-28,use,Creator Store music only for Roblox use
+S255,audio,Roblox + Monstercat announcement,https://devforum.roblox.com/t/roblox-monstercat-3/688452,DevForum post,n/a,2020 (not checked),2026-10-28,caution,older partnership details
+S256,audio,Freesound FAQ (licenses),https://freesound.org/help/faq/,"per sound: CC0, CC-BY, CC-BY-NC",CC0/CC-BY yes; NC no,not shown,2026-10-28,caution,check license per sound
+S257,audio,Sonniss GDC Game Audio Bundle,https://sonniss.com/gameaudiogdc,Sonniss royalty-free license,yes; no redistribution as SFX packs,latest listed 2024,2026-10-28,use,no attribution; no AI training
+S258,audio,SoundService API,https://create.roblox.com/docs/reference/engine/classes/SoundService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"AcousticSimulationEnabled: occlusion, diffraction, reverb"
