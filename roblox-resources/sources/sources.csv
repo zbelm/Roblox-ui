@@ -203,3 +203,14 @@ S201,performance,MicroProfiler memory profiling announcement,https://devforum.ro
 S202,performance,Definitive optimization tutorial,https://devforum.roblox.com/t/the-definitive-tutorial-to-game-optimization-everything-you-need-to-know/4629258,DevForum post,n/a,2026-05-10,2026-10-28,caution,useful; some overstated claims
 S203,performance,Optimization guide memory draw calls network,https://devforum.roblox.com/t/tutorial-roblox-optimization-guide-memory-draw-calls-and-network-tips/3881861,DevForum post,n/a,not checked,2026-10-28,caution,community tips; verify against docs
 S204,performance,Native code generation,https://create.roblox.com/docs/luau/native-code-gen,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,--!native for hot math code
+S205,architecture,Script locations and RunContext,https://create.roblox.com/docs/scripting/locations,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,single client and server entry Script
+S206,architecture,Module scripts,https://create.roblox.com/docs/scripting/module,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S207,architecture,Client-server model,https://create.roblox.com/docs/projects/client-server,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,replication basics
+S208,architecture,Luau type checking,https://create.roblox.com/docs/luau/type-checking,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"strict, generics, exports"
+S209,architecture,Deferred events,https://create.roblox.com/docs/scripting/events/deferred,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,SignalBehavior Deferred effects
+S210,architecture,Attributes,https://create.roblox.com/docs/scripting/attributes,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S211,architecture,New type solver general release,https://devforum.roblox.com/t/general-release-luau%E2%80%99s-new-type-solver/4084991,DevForum post,n/a,2025-11-20,2026-10-28,use,strict opt-in via UseNewLuauTypeSolver
+S212,architecture,jecs ECS,https://github.com/Ukendio/jecs,MIT,yes,2026-10-22,2026-10-28,use,fast typed ECS with relationships
+S213,architecture,jecs DevForum thread,https://devforum.roblox.com/t/jecs-optimizing-declarative-scene-graphs-with-ecs/3263203,DevForum post,n/a,2024-11-17,2026-10-28,use,
+S214,architecture,Matter ECS,https://github.com/evaera/matter,MIT,yes,2024-07-16,2026-10-28,caution,inactive since 2024
+S215,architecture,Flamework (roblox-ts),https://github.com/rbxts-flamework/core,MIT,yes,2025-09-03,2026-10-28,caution,TypeScript-only framework
