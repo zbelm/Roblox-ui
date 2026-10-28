@@ -280,3 +280,16 @@ S278,progression,Missions feature package,https://create.roblox.com/docs/resourc
 S279,progression,Engagement rewards package,https://create.roblox.com/docs/resources/feature-packages/engagement-rewards,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,daily and playtime rewards
 S280,progression,Level Up System Math,https://devforum.roblox.com/t/level-up-system-math/1474055,DevForum post,n/a,older (not checked),2026-10-28,caution,quadratic curve with inverse formula
 S281,progression,How do you design your levelling system,https://devforum.roblox.com/t/how-do-you-design-your-levelling-system/98750,DevForum post,n/a,older,2026-10-28,caution,curve examples discussion
+S282,npc-ai,Character pathfinding,https://create.roblox.com/docs/characters/pathfinding,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"agent params, modifiers, links, limits"
+S283,npc-ai,PathfindingService API,https://create.roblox.com/docs/reference/engine/classes/PathfindingService,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,ComputeRaw/SmoothPathAsync deprecated
+S284,npc-ai,Path API,https://create.roblox.com/docs/reference/engine/classes/Path,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"ComputeAsync, GetWaypoints, Blocked"
+S285,npc-ai,NPC Kit,https://create.roblox.com/docs/resources/npc-kit,Roblox Limited Use License,Roblox only,2026-10-27,2026-10-28,caution,prebuilt NPCs; limited use license
+S286,npc-ai,Character Controller Library,https://create.roblox.com/docs/characters/character-controller-library,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,attribute-driven movement framework
+S287,npc-ai,TextGenerator API (LLM NPCs),https://create.roblox.com/docs/reference/engine/classes/TextGenerator,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,100 req/min base; moderated
+S288,npc-ai,Generative AI policy notes,https://create.roblox.com/docs/generative-AI,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,moderation and maturity rules for AI APIs
+S289,npc-ai,Dialog API (legacy chat dialogs),https://create.roblox.com/docs/reference/engine/classes/Dialog,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,caution,simple choice dialogs; dated look
+S290,npc-ai,SimplePath,https://github.com/grayzcale/simplepath,MIT,yes,2026-06-11,2026-10-28,use,PathfindingService wrapper
+S291,npc-ai,SimplePath docs,https://grayzcale.github.io/simplepath,MIT,yes,dead,2026-10-28,skip,HTTP 404 on 2026-10-28; use repo README
+S292,npc-ai,AI behavior frameworks post,https://devforum.roblox.com/t/using-ai-behavior-frameworks-for-npcs/3482097,DevForum post,n/a,not checked,2026-10-28,use,"state machines, utility AI explained"
+S293,npc-ai,Behavior trees tutorial,https://devforum.roblox.com/t/tutorial-for-how-i-use-behavior-trees-for-my-npc/2806049,DevForum post,n/a,not checked,2026-10-28,caution,uses BTrees5 plugin
+S294,npc-ai,TreeAI,https://devforum.roblox.com/t/treeai-easily-create-behavior-trees-for-your-npcs/4034006,no license stated,unclear,2025-10-30 (fix 2025-12-26),2026-10-28,caution,Creator Store plugin and module
