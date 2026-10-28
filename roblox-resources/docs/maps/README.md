@@ -30,6 +30,7 @@ verified: 2026-10-28
   - DevForum dungeon guide (2019): room placement, recursive-backtracker maze, flood-fill door checks; code Apache-2.0, author asks credit in monetized games; caution [S73][S127].
   - Maze World: MIT, 2024-11-25, small Rojo game with maze generation using legacy Roact/Rodux; read, do not copy UI; caution [S126].
   - EgoMoose dungeon generator: MIT, 2016-02-13, abandoned; reading only [S128].
+- 3D asset pipeline for maps: see modular-environment-art (kits, pivots, snapping), mesh-import-export, and 3d-asset-sources-licensing.
 ## Gotchas
 - Deprecated legacy terrain methods: `SetCell`, `SetCells`, `GetCell`, `AutowedgeCell(s)`, `ConvertToSmooth`, `IsSmooth`; port to `FillBlock`/`WriteVoxels`.
 - Expanded Terrain swaps the backend and requires reopening the place; terrain under 16 voxels can vanish while streaming [S71].

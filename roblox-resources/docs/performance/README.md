@@ -29,6 +29,7 @@ verified: 2026-10-28
 - Parallel Luau: put independent work under `Actor`s and use `task.desynchronize()` for multi-core compute [S200]. `--!native` compiles hot numeric code to machine code [S204].
 - Replication: do not store server-only assets in `ReplicatedStorage`; avoid server-side `TweenService` on replicated objects; send small remote payloads; chunk large instance trees [S190][S192].
 - MicroProfiler memory view: X-Ray mode, flame graphs, and dump diffs find allocation hot spots [S201].
+- Mesh-side budgets (triangle limits, fidelity, instancing, collision): see mesh-import-export and modular-environment-art.
 ## Gotchas
 - `WaitForChild` or nil checks are required for anything streamable; parts can be absent or streamed out on clients [S197].
 - Size or scale changes on avatars and skinned meshes rebuild FastClusters (`updateInvalidatedFastClusters` in MicroProfiler) [S192].
