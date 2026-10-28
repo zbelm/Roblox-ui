@@ -435,3 +435,19 @@ S433,texturing-3d,How to make basic trim,https://devforum.roblox.com/t/how-to-ma
 S434,texturing-3d,Blender manual: UV unwrapping,https://docs.blender.org/manual/en/latest/modeling/meshes/uv/unwrapping/introduction.html,Blender manual (CC-BY-SA 4.0),n/a,2026-10-28,2026-10-28,use,
 S435,texturing-3d,Blender manual: Cycles baking,https://docs.blender.org/manual/en/latest/render/cycles/baking.html,Blender manual (CC-BY-SA 4.0),n/a,2026-10-28,2026-10-28,use,"bake normals, AO, color"
 S436,texturing-3d,Blender manual: texture paint,https://docs.blender.org/manual/en/latest/sculpt_paint/texture_paint/introduction.html,Blender manual (CC-BY-SA 4.0),n/a,2026-10-28,2026-10-28,use,
+S437,rigging-skinning,Rigging overview,https://create.roblox.com/docs/art/modeling/rigging,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"Bone instances, R1 and R15"
+S438,rigging-skinning,Rig a simple mesh,https://create.roblox.com/docs/art/modeling/rig-a-simple-mesh,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S439,rigging-skinning,Skin a simple mesh,https://create.roblox.com/docs/art/modeling/skin-a-simple-mesh,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S440,rigging-skinning,Rig a humanoid model,https://create.roblox.com/docs/art/modeling/rig-a-humanoid-model,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S441,rigging-skinning,Skin a humanoid model,https://create.roblox.com/docs/art/modeling/skin-a-humanoid-model,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S442,rigging-skinning,Cage meshes,https://create.roblox.com/docs/art/modeling/cage-meshes,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,_InnerCage and _OuterCage for layered items
+S443,rigging-skinning,Calisthenics Tool,https://create.roblox.com/docs/art/modeling/calisthenics-tool,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,Blender deformation test poses
+S444,rigging-skinning,Automatic skinning transfer,https://create.roblox.com/docs/avatar/automatic-skinning-transfer,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S445,rigging-skinning,Character body specifications,https://create.roblox.com/docs/avatar/character-bodies/specifications,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"R15 rig, per-part triangle budgets"
+S446,rigging-skinning,Bone class,https://create.roblox.com/docs/reference/engine/classes/Bone,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,
+S447,rigging-skinning,Animation overview (Roblox docs),https://create.roblox.com/docs/animation,Roblox docs (CC-BY-4.0; code MIT),n/a,2026-10-27,2026-10-28,use,"Animation Editor, IK, playback"
+S448,rigging-skinning,Roblox avatar repo (Calisthenics Tool),https://github.com/Roblox/avatar,Roblox Limited Use License,unclear,2026-10-15,2026-10-28,caution,not open source; read license first
+S449,rigging-skinning,Import/fix skinned rigs from Blender,https://devforum.roblox.com/t/how-to-importfix-skinned-mesh-rigscustom-rigs-and-animations-from-blender-to-roblox/1628571,DevForum post,n/a,2022-01-15,2026-10-28,use,replies active into 2026
+S450,rigging-skinning,Skinned MeshParts are live,https://devforum.roblox.com/t/skinned-meshparts-are-live/831011,DevForum post (Roblox staff),n/a,2020-10-21,2026-10-28,caution,historic; old triangle limits
+S451,rigging-skinning,Max limit of bones for custom characters,https://devforum.roblox.com/t/max-limit-of-bones-for-custom-characters/1290031,DevForum post,n/a,2021-06-14,2026-10-28,caution,unofficial answer; no documented cap
+S452,rigging-skinning,How many bones can be in a rig,https://devforum.roblox.com/t/how-many-bones-can-be-in-a-rig-at-once/1499547,DevForum post,n/a,2021-10-08,2026-10-28,caution,anecdotal performance reports
